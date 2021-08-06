@@ -1,0 +1,461 @@
+Log created: 2020-05-30 14:53:13
+Type: backup
+[2020-05-30 14:53:16][notice]Start backing up.
+[2020-05-30 14:53:16][notice]server info fcgi:Off max execution time: 900 wp version:5.4.1 php version:7.3.18-1+ubuntu20.04.1+deb.sury.org+1 db version:5.7.30 php ini:safe_mode: memory_limit:256M memory_get_usage:46.14 MB memory_get_peak_usage:46.73 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2020-05-30 14:53:16][notice]Prepare to backup backup_db files.
+[2020-05-30 14:53:16][notice]Start exporting database.
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_aps_social_icons
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_cftemail_forms
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_cftemail_messages
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_commentmeta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_comments
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_expm_hiiden_content
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_expm_maker
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_expm_maker_pages
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_fv_player_playermeta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_fv_player_players
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_fv_player_videometa
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_fv_player_videos
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_attributes
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_cdn
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_folders
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_galleries
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_galleries_excluded
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_galleries_resources
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_image_optimize
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_membership_presets
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_photos
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_photos_pos
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_photos_settings
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_settings_presets
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_settings_sets
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_stats
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_gg_tags
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_links
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_action_meta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_actions
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_chunks
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_field_meta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_fields
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_form_meta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_forms
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_object_meta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_objects
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_relationships
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_nf3_upgrades
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_options
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_postmeta
+[2020-05-30 14:53:16][notice]Preparing to dump table wpjn_posts
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_pta_sus_sheets
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_pta_sus_signups
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_pta_sus_tasks
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_responsive_video_grid
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_super_buttons
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_super_buttons_meta
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_term_relationships
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_term_taxonomy
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_termmeta
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_terms
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_usermeta
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_users
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_volunteer_emails
+[2020-05-30 14:53:17][notice]Preparing to dump table wpjn_volunteer_rsvps
+[2020-05-30 14:53:17][notice]Exporting database finished.
+[2020-05-30 14:53:17][notice]Start compressing backup_db
+[2020-05-30 14:53:17][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_db.zip
+[2020-05-30 14:53:17][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_db.zip, filesize: 3.13 MB
+[2020-05-30 14:53:17][notice]Compressing backup_db completed
+[2020-05-30 14:53:17][notice]Backing up backup_db completed.
+[2020-05-30 14:53:17][notice]Prepare to backup backup_themes files.
+[2020-05-30 14:53:17][notice]File number: 64
+[2020-05-30 14:53:17][notice]Start compressing backup_themes
+[2020-05-30 14:53:17][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_themes.zip
+[2020-05-30 14:53:17][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_themes.zip, filesize: 2.23 MB
+[2020-05-30 14:53:17][notice]Compressing backup_themes completed
+[2020-05-30 14:53:17][notice]Backing up backup_themes completed.
+[2020-05-30 14:53:18][notice]Prepare to backup backup_plugin files.
+[2020-05-30 14:53:18][notice]File number: 4933
+[2020-05-30 14:53:18][notice]Start compressing backup_plugin
+[2020-05-30 14:53:45][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_plugin.zip
+[2020-05-30 14:53:50][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_plugin.zip, filesize: 88.32 MB
+[2020-05-30 14:53:50][notice]Compressing backup_plugin completed
+[2020-05-30 14:53:50][notice]Backing up backup_plugin completed.
+[2020-05-30 14:53:51][notice]Prepare to backup backup_uploads files.
+[2020-05-30 14:53:51][notice]File number: 749
+[2020-05-30 14:53:51][notice]Start compressing backup_uploads
+[2020-05-30 14:53:55][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_uploads.zip
+[2020-05-30 14:53:57][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_uploads.zip, filesize: 65.70 MB
+[2020-05-30 14:53:57][notice]Compressing backup_uploads completed
+[2020-05-30 14:53:57][notice]Backing up backup_uploads completed.
+[2020-05-30 14:53:57][notice]Prepare to backup backup_content files.
+[2020-05-30 14:53:57][notice]File number: 2
+[2020-05-30 14:53:57][notice]Start compressing backup_content
+[2020-05-30 14:53:57][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_content.zip
+[2020-05-30 14:53:57][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_content.zip, filesize: 105.25 KB
+[2020-05-30 14:53:57][notice]Compressing backup_content completed
+[2020-05-30 14:53:57][notice]Backing up backup_content completed.
+[2020-05-30 14:53:57][notice]Prepare to backup backup_core files.
+[2020-05-30 14:53:57][notice]File number: 1667
+[2020-05-30 14:53:57][notice]Start compressing backup_core
+[2020-05-30 14:54:04][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_core.zip
+[2020-05-30 14:54:05][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_core.zip, filesize: 39.68 MB
+[2020-05-30 14:54:05][notice]Compressing backup_core completed
+[2020-05-30 14:54:05][notice]Backing up backup_core completed.
+[2020-05-30 14:54:05][notice]Prepare to backup backup_merge files.
+[2020-05-30 14:54:05][notice]File number: 6
+[2020-05-30 14:54:05][notice]Start compressing backup_merge
+[2020-05-30 14:54:05][notice]Prepare to zip files. file: www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_all.zip
+[2020-05-30 14:54:11][notice]Adding zip files completed.www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_all.zip, filesize: 113.75 MB
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_plugin.zip
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_uploads.zip
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_core.zip
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_db.zip
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_themes.zip
+[2020-05-30 14:54:11][notice]Cleaned up file, filename: /home/rgoalin/domains/rgoal.in/public_html/wp-content/wpvividbackups/www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_content.zip
+[2020-05-30 14:54:11][notice]Compressing backup_merge completed
+[2020-05-30 14:54:11][notice]Backing up backup_merge completed.
+[2020-05-30 14:54:11][notice]Backup completed.
+[2020-05-30 14:54:11][notice]Backup succeeded.
+[2020-05-30 14:54:11][notice]Start upload.
+[2020-05-30 14:54:11][notice]Check upload folder wpvivid_backup
+[2020-05-30 14:54:11][notice]Start uploading www.rgoal.in_wpvivid-5ed273594c772_2020-05-30-14-53_backup_all.zip
+[2020-05-30 14:54:11][notice]Check if the server already has the same name file.
+[2020-05-30 14:54:12][notice]Initiate a resumable upload session.
+[2020-05-30 14:54:12][error]An exception has occurred. class:Google_Service_Exception;msg:<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta type="copyright" content="Copyright (C) 1996-2017 The Squid Software Foundation and contributors">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ERROR: The requested URL could not be retrieved</title>
+<style type="text/css"><!-- 
+ /*
+ * Copyright (C) 1996-2017 The Squid Software Foundation and contributors
+ *
+ * Squid software is distributed under GPLv2+ license and includes
+ * contributions from numerous individuals and organizations.
+ * Please see the COPYING and CONTRIBUTORS files for details.
+ */
+
+/*
+ Stylesheet for Squid Error pages
+ Adapted from design by Free CSS Templates
+ http://www.freecsstemplates.org
+ Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Page basics */
+* {
+	font-family: verdana, sans-serif;
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size: 12px;
+	color: #1e1e1e;
+}
+
+/* Page displayed title area */
+#titles {
+	margin-left: 15px;
+	padding: 10px;
+	padding-left: 100px;
+	background: url('/squid-internal-static/icons/SN.png') no-repeat left;
+}
+
+/* initial title */
+#titles h1 {
+	color: #000000;
+}
+#titles h2 {
+	color: #000000;
+}
+
+/* special event: FTP success page titles */
+#titles ftpsuccess {
+	background-color:#00ff00;
+	width:100%;
+}
+
+/* Page displayed body content area */
+#content {
+	padding: 10px;
+	background: #ffffff;
+}
+
+/* General text */
+p {
+}
+
+/* error brief description */
+#error p {
+}
+
+/* some data which may have caused the problem */
+#data {
+}
+
+/* the error message received from the system or other software */
+#sysmsg {
+}
+
+pre {
+    font-family:sans-serif;
+}
+
+/* special event: FTP / Gopher directory listing */
+#dirmsg {
+    font-family: courier;
+    color: black;
+    font-size: 10pt;
+}
+#dirlisting {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#dirlisting tr.entry td.icon,td.filename,td.size,td.date {
+    border-bottom: groove;
+}
+#dirlisting td.size {
+    width: 50px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* horizontal lines */
+hr {
+	margin: 0;
+}
+
+/* page displayed footer area */
+#footer {
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+
+body
+:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
+:lang(he) { direction: rtl; }
+ --></style>
+</head><body id=ERR_INVALID_REQ>
+<div id="titles">
+<h1>ERROR</h1>
+<h2>The requested URL could not be retrieved</h2>
+</div>
+<hr>
+
+<div id="content">
+<p><b>Invalid Request</b> error was encountered while trying to process the request:</p>
+
+<blockquote id="data">
+<pre>POST /upload/drive/v3/files?uploadType=resumable HTTP/1.1
+X-Php-Expected-Class: Google_Service_Drive_DriveFile
+Content-Type: application/json; charset=UTF-8
+x-upload-content-type: text/plain
+x-upload-content-length: 119277585
+Expect: 
+User-Agent: google-api-php-client/2.2.2
+Authorization: ** NOT DISPLAYED **
+Content-Length: 125
+Host: www.googleapis.com
+</pre>
+</blockquote>
+
+<p>Some possible problems are:</p>
+<ul>
+<li id="missing-method"><p>Missing or unknown request method.</p></li>
+<li id="missing-url"><p>Missing URL.</p></li>
+<li id="missing-protocol"><p>Missing HTTP Identifier (HTTP/1.0).</p></li>
+<li><p>Request is too large.</p></li>
+<li><p>Content-Length missing for POST or PUT requests.</p></li>
+<li><p>Illegal character in hostname; underscores are not allowed.</p></li>
+<li><p>HTTP/1.1 <q>Expect:</q> feature is being asked from an HTTP/1.0 software.</p></li>
+</ul>
+
+<p>Your cache administrator is <a href="mailto:webmaster?subject=CacheErrorInfo%20-%20ERR_INVALID_REQ&amp;body=CacheHost%3A%20http-backend%0D%0AErrPage%3A%20ERR_INVALID_REQ%0D%0AErr%3A%20%5Bnone%5D%0D%0ATimeStamp%3A%20Sat,%2030%20May%202020%2014%3A54%3A12%20GMT%0D%0A%0D%0AClientIP%3A%202a01%3A4f8%3A222%3A1152%3A%3A2%0D%0A%0D%0AHTTP%20Request%3A%0D%0APOST%20%2Fupload%2Fdrive%2Fv3%2Ffiles%3FuploadType%3Dresumable%20HTTP%2F1.1%0AX-Php-Expected-Class%3A%20Google_Service_Drive_DriveFile%0D%0AContent-Type%3A%20application%2Fjson%3B%20charset%3DUTF-8%0D%0Ax-upload-content-type%3A%20text%2Fplain%0D%0Ax-upload-content-length%3A%20119277585%0D%0AExpect%3A%20%0D%0AUser-Agent%3A%20google-api-php-client%2F2.2.2%0D%0AAuthorization%3A%20Bearer%20ya29.a0AfH6SMC_xRo3Q2tR9qiqh_CbEvdLEYKMY3hBx7hFXaSA1nWsN7q36lZd-32fG-qWZQ5zXRPglvXOsWHqfFkol-N25tXCNOkIKNvTK7QQ05PUbEehzEib30gJqwqKyxQhs0abL16gqO8x-NruX8VRaTdfMMrw457eHAA%0D%0AContent-Length%3A%20125%0D%0AHost%3A%20www.googleapis.com%0D%0A%0D%0A%0D%0A">webmaster</a>.</p>
+<br>
+</div>
+
+<script language="javascript">
+if ('POST' != '[unknown method]') document.getElementById('missing-method').style.display = 'none';
+if ('https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable' != '[no URL]') document.getElementById('missing-url').style.display = 'none';
+if ('https' != '[unknown protocol]') document.getElementById('missing-protocol').style.display = 'none';
+</script>
+
+<hr>
+<div id="footer">
+<p>Generated Sat, 30 May 2020 14:54:12 GMT by http-backend (squid/3.5.27)</p>
+<!-- ERR_INVALID_REQ -->
+</div>
+</body></html>
+;code:417;line:118;in_file:/home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/wpvivid-backuprestore/includes/lib/google-api-php-client/src/Google/Http/REST.php;
+[2020-05-30 14:54:12][error]An exception has occurred. class:Google_Service_Exception;msg:<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta type="copyright" content="Copyright (C) 1996-2017 The Squid Software Foundation and contributors">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ERROR: The requested URL could not be retrieved</title>
+<style type="text/css"><!-- 
+ /*
+ * Copyright (C) 1996-2017 The Squid Software Foundation and contributors
+ *
+ * Squid software is distributed under GPLv2+ license and includes
+ * contributions from numerous individuals and organizations.
+ * Please see the COPYING and CONTRIBUTORS files for details.
+ */
+
+/*
+ Stylesheet for Squid Error pages
+ Adapted from design by Free CSS Templates
+ http://www.freecsstemplates.org
+ Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Page basics */
+* {
+	font-family: verdana, sans-serif;
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size: 12px;
+	color: #1e1e1e;
+}
+
+/* Page displayed title area */
+#titles {
+	margin-left: 15px;
+	padding: 10px;
+	padding-left: 100px;
+	background: url('/squid-internal-static/icons/SN.png') no-repeat left;
+}
+
+/* initial title */
+#titles h1 {
+	color: #000000;
+}
+#titles h2 {
+	color: #000000;
+}
+
+/* special event: FTP success page titles */
+#titles ftpsuccess {
+	background-color:#00ff00;
+	width:100%;
+}
+
+/* Page displayed body content area */
+#content {
+	padding: 10px;
+	background: #ffffff;
+}
+
+/* General text */
+p {
+}
+
+/* error brief description */
+#error p {
+}
+
+/* some data which may have caused the problem */
+#data {
+}
+
+/* the error message received from the system or other software */
+#sysmsg {
+}
+
+pre {
+    font-family:sans-serif;
+}
+
+/* special event: FTP / Gopher directory listing */
+#dirmsg {
+    font-family: courier;
+    color: black;
+    font-size: 10pt;
+}
+#dirlisting {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#dirlisting tr.entry td.icon,td.filename,td.size,td.date {
+    border-bottom: groove;
+}
+#dirlisting td.size {
+    width: 50px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* horizontal lines */
+hr {
+	margin: 0;
+}
+
+/* page displayed footer area */
+#footer {
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+
+body
+:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
+:lang(he) { direction: rtl; }
+ --></style>
+</head><body id=ERR_INVALID_REQ>
+<div id="titles">
+<h1>ERROR</h1>
+<h2>The requested URL could not be retrieved</h2>
+</div>
+<hr>
+
+<div id="content">
+<p><b>Invalid Request</b> error was encountered while trying to process the request:</p>
+
+<blockquote id="data">
+<pre>POST /upload/drive/v3/files?uploadType=resumable HTTP/1.1
+X-Php-Expected-Class: Google_Service_Drive_DriveFile
+Content-Type: application/json; charset=UTF-8
+x-upload-content-type: text/plain
+x-upload-content-length: 119277585
+Expect: 
+User-Agent: google-api-php-client/2.2.2
+Authorization: ** NOT DISPLAYED **
+Content-Length: 125
+Host: www.googleapis.com
+</pre>
+</blockquote>
+
+<p>Some possible problems are:</p>
+<ul>
+<li id="missing-method"><p>Missing or unknown request method.</p></li>
+<li id="missing-url"><p>Missing URL.</p></li>
+<li id="missing-protocol"><p>Missing HTTP Identifier (HTTP/1.0).</p></li>
+<li><p>Request is too large.</p></li>
+<li><p>Content-Length missing for POST or PUT requests.</p></li>
+<li><p>Illegal character in hostname; underscores are not allowed.</p></li>
+<li><p>HTTP/1.1 <q>Expect:</q> feature is being asked from an HTTP/1.0 software.</p></li>
+</ul>
+
+<p>Your cache administrator is <a href="mailto:webmaster?subject=CacheErrorInfo%20-%20ERR_INVALID_REQ&amp;body=CacheHost%3A%20http-backend%0D%0AErrPage%3A%20ERR_INVALID_REQ%0D%0AErr%3A%20%5Bnone%5D%0D%0ATimeStamp%3A%20Sat,%2030%20May%202020%2014%3A54%3A12%20GMT%0D%0A%0D%0AClientIP%3A%202a01%3A4f8%3A222%3A1152%3A%3A2%0D%0A%0D%0AHTTP%20Request%3A%0D%0APOST%20%2Fupload%2Fdrive%2Fv3%2Ffiles%3FuploadType%3Dresumable%20HTTP%2F1.1%0AX-Php-Expected-Class%3A%20Google_Service_Drive_DriveFile%0D%0AContent-Type%3A%20application%2Fjson%3B%20charset%3DUTF-8%0D%0Ax-upload-content-type%3A%20text%2Fplain%0D%0Ax-upload-content-length%3A%20119277585%0D%0AExpect%3A%20%0D%0AUser-Agent%3A%20google-api-php-client%2F2.2.2%0D%0AAuthorization%3A%20Bearer%20ya29.a0AfH6SMC_xRo3Q2tR9qiqh_CbEvdLEYKMY3hBx7hFXaSA1nWsN7q36lZd-32fG-qWZQ5zXRPglvXOsWHqfFkol-N25tXCNOkIKNvTK7QQ05PUbEehzEib30gJqwqKyxQhs0abL16gqO8x-NruX8VRaTdfMMrw457eHAA%0D%0AContent-Length%3A%20125%0D%0AHost%3A%20www.googleapis.com%0D%0A%0D%0A%0D%0A">webmaster</a>.</p>
+<br>
+</div>
+
+<script language="javascript">
+if ('POST' != '[unknown method]') document.getElementById('missing-method').style.display = 'none';
+if ('https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable' != '[no URL]') document.getElementById('missing-url').style.display = 'none';
+if ('https' != '[unknown protocol]') document.getElementById('missing-protocol').style.display = 'none';
+</script>
+
+<hr>
+<div id="footer">
+<p>Generated Sat, 30 May 2020 14:54:12 GMT by http-backend (squid/3.5.27)</p>
+<!-- ERR_INVALID_REQ -->
+</div>
+</body></html>
+;code:417;line:118;in_file:/home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/wpvivid-backuprestore/includes/lib/google-api-php-client/src/Google/Http/REST.php;

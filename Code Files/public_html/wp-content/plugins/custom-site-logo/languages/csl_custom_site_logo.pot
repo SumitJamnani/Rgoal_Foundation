@@ -1,0 +1,137 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Site Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 18:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Awais Altaf"
+msgstr ""
+
+#: custom-site-logo.php:107
+msgid "Center Logo"
+msgstr ""
+
+#: custom-site-logo.php:287
+msgid "Check logo preview with hover effect if selected"
+msgstr ""
+
+#: custom-site-logo.php:235
+msgid "Check this option for responsive logo."
+msgstr ""
+
+#: custom-site-logo.php:218
+msgid "Check this option to center the logo."
+msgstr ""
+
+#: custom-site-logo.php:68
+msgid "Choose Hover Effect"
+msgstr ""
+
+#. Adding this submenu to Settings Main Menu
+#. Name of the plugin
+#: custom-site-logo.php:321 custom-site-logo.php:322
+msgid "Custom Site Logo"
+msgstr ""
+
+#: custom-site-logo.php:47
+msgid "Custom Site Logo Settings"
+msgstr ""
+
+#: custom-site-logo.php:153
+msgid ""
+"Dear user, kindly paste <?php echo csl_CustomSiteLogo_show_logo(); ?> in "
+"your template where you want to display the logo.<br><br>"
+msgstr ""
+
+#: custom-site-logo.php:157
+msgid ""
+"Dear user, kindly paste shortcode [csl_display_logo] in your post, page or "
+"any editor where you want to display the logo."
+msgstr ""
+
+#: custom-site-logo.php:172
+msgid "Enter an image URL or use an image from media library."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://feastsolutions.com"
+msgstr ""
+
+#: custom-site-logo.php:133
+msgid "Link logo to custom URL"
+msgstr ""
+
+#: custom-site-logo.php:94
+msgid "Logo Height"
+msgstr ""
+
+#: custom-site-logo.php:338
+msgid "Logo Settings Saved Successfully"
+msgstr ""
+
+#: custom-site-logo.php:81
+msgid "Logo Width"
+msgstr ""
+
+#: custom-site-logo.php:120
+msgid "Make Logo Responsive"
+msgstr ""
+
+#: custom-site-logo.php:294
+msgid "No Preview Available"
+msgstr ""
+
+#: custom-site-logo.php:215
+msgid "Please check if you want to center the logo"
+msgstr ""
+
+#: custom-site-logo.php:232
+msgid "Please check if you want to make logo responsive"
+msgstr ""
+
+#: custom-site-logo.php:250
+msgid "Put any custom URL."
+msgstr ""
+
+#: custom-site-logo.php:247
+msgid "Put custom link here."
+msgstr ""
+
+#: custom-site-logo.php:200
+msgid ""
+"Put height in px. If you want default logo height with just leave it empty."
+msgstr ""
+
+#: custom-site-logo.php:187
+msgid ""
+"Put width in px. If you want default logo width with just leave it empty."
+msgstr ""
+
+#: custom-site-logo.php:290
+msgid "Select best hover effects"
+msgstr ""
+
+#: custom-site-logo.php:170
+msgid "Select Logo"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a plugin to show the custom logo in site header or any where."
+msgstr ""
+
+#: custom-site-logo.php:55
+msgid "Upload Image"
+msgstr ""

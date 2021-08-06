@@ -1,0 +1,520 @@
+0000.020 (0) Opened log file at time: Mon, 02 Aug 2021 18:04:56 +0000 on http://www.rgoal.in
+0000.026 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 45.8M | 48.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.028 (0) Free space on disk containing Updraft's temporary directory: 13229716 MB
+0000.065 (0) Tasks: Backup files:  (schedule: manual) Backup DB: 1 (schedule: daily)
+0000.066 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.151 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1627837982, seconds_ago=89514)
+0000.153 (0) Set semaphore last lock (d) time to 2021-08-02 18:04:56
+0000.153 (0) Semaphore lock (d) complete
+0000.157 (0) Backup run: resumption=0, nonce=59b8df33428e, file_nonce=59b8df33428e begun at=1627927496 (0s ago), job type=backup
+0000.160 (0) Scheduling a resumption (1) after 300 seconds (1627927796) in case this run gets aborted
+0000.256 (0) This backup run is not intended for files - skipping
+0000.257 (0) Beginning creation of database dump (WordPress DB)
+0000.259 (0) Couldn't get the sql_mode value (N;)
+0000.260 (0) SQL compatibility mode successfully changed to 
+0000.262 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.367 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpjn_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */ (truncated - 1189 bytes total)
+0000.374 (0) Binary mysqldump: error (code: 2)
+0000.398 (0) Table wpjn_options: Total expected rows (approximate): 468
+0000.455 (0) Table wpjn_options: Rows added in this batch (next record: 15306): 472 (uncompressed bytes in this segment=1200580) in 0.06 seconds
+0000.472 (0) Table wpjn_options: finishing file(s) (2, 162.1 KB)
+0000.483 (0) Table wpjn_users: Total expected rows (approximate): 2
+0000.486 (0) Table wpjn_users: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1351) in 0.00 seconds
+0000.497 (0) Table wpjn_users: finishing file(s) (2, 0.7 KB)
+0000.501 (0) Table wpjn_usermeta: Total expected rows (approximate): 107
+0000.507 (0) Table wpjn_usermeta: Rows added in this batch (next record: 161): 107 (uncompressed bytes in this segment=9694) in 0.01 seconds
+0000.517 (0) Table wpjn_usermeta: finishing file(s) (2, 3.3 KB)
+0000.520 (0) Table wpjn_commentmeta: Total expected rows (approximate): 0
+0000.524 (0) Table wpjn_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.00 seconds
+0000.535 (0) Table wpjn_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.538 (0) Table wpjn_comments: Total expected rows (approximate): 0
+0000.541 (0) Table wpjn_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1428) in 0.00 seconds
+0000.553 (0) Table wpjn_comments: finishing file(s) (2, 0.5 KB)
+0000.556 (0) Table wpjn_itsec_bans: Total expected rows (approximate): 2
+0000.558 (0) Table wpjn_itsec_bans: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1123) in 0.00 seconds
+0000.569 (0) Table wpjn_itsec_bans: finishing file(s) (2, 0.5 KB)
+0000.572 (0) Table wpjn_itsec_distributed_storage: Total expected rows (approximate): 0
+0000.576 (0) Table wpjn_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=927) in 0.00 seconds
+0000.585 (0) Table wpjn_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0000.588 (0) Table wpjn_itsec_fingerprints: Total expected rows (approximate): 0
+0000.593 (0) Table wpjn_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.00 seconds
+0000.604 (0) Table wpjn_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0000.609 (0) Table wpjn_itsec_geolocation_cache: Total expected rows (approximate): 0
+0000.615 (0) Table wpjn_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=949) in 0.00 seconds
+0000.627 (0) Table wpjn_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0000.631 (0) Table wpjn_itsec_lockouts: Total expected rows (approximate): 11
+0000.635 (0) Table wpjn_itsec_lockouts: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=10734) in 0.00 seconds
+0000.645 (0) Table wpjn_itsec_lockouts: finishing file(s) (2, 1.2 KB)
+0000.647 (0) Table wpjn_itsec_logs: Total expected rows (approximate): 362
+0001.258 (0) Table wpjn_itsec_logs: Rows added in this batch (next record: 1430): 695 (uncompressed bytes in this segment=19886787) in 0.61 seconds
+0001.283 (0) Table wpjn_itsec_logs: finishing file(s) (2, 1437.6 KB)
+0001.287 (0) Table wpjn_itsec_mutexes: Total expected rows (approximate): 0
+0001.291 (0) Table wpjn_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.00 seconds
+0001.301 (0) Table wpjn_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0001.305 (0) Table wpjn_itsec_opaque_tokens: Total expected rows (approximate): 0
+0001.307 (0) Table wpjn_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=779) in 0.00 seconds
+0001.318 (0) Table wpjn_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0001.321 (0) Table wpjn_itsec_temp: Total expected rows (approximate): 162
+0001.326 (0) Table wpjn_itsec_temp: Rows added in this batch (next record: 212): 212 (uncompressed bytes in this segment=20738) in 0.00 seconds
+0001.335 (0) Table wpjn_itsec_temp: finishing file(s) (2, 2.5 KB)
+0001.339 (0) Table wpjn_itsec_user_groups: Total expected rows (approximate): 5
+0001.342 (0) Table wpjn_itsec_user_groups: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=1446) in 0.00 seconds
+0001.352 (0) Table wpjn_itsec_user_groups: finishing file(s) (2, 0.6 KB)
+0001.355 (0) Table wpjn_links: Total expected rows (approximate): 0
+0001.359 (0) Table wpjn_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1009) in 0.00 seconds
+0001.388 (0) Table wpjn_links: finishing file(s) (2, 0.4 KB)
+0001.392 (0) Table wpjn_postmeta: Total expected rows (approximate): 2571
+0001.514 (0) Table wpjn_postmeta: Rows added in this batch (next record: 6593): 3409 (uncompressed bytes in this segment=2797919) in 0.12 seconds
+0001.551 (0) Table wpjn_postmeta: finishing file(s) (2, 203.8 KB)
+0001.554 (0) Table wpjn_posts: Total expected rows (approximate): 763
+0001.612 (0) Table wpjn_posts: Rows added in this batch (next record: 1233): 812 (uncompressed bytes in this segment=1179828) in 0.06 seconds
+0001.632 (0) Table wpjn_posts: finishing file(s) (2, 81.7 KB)
+0001.635 (0) Table wpjn_term_relationships: Total expected rows (approximate): 306
+0001.640 (0) Table wpjn_term_relationships: Rows added in this batch (next record: 100000): 306 (uncompressed bytes in this segment=5162) in 0.00 seconds
+0001.661 (0) Table wpjn_term_relationships: finishing file(s) (2, 1.1 KB)
+0001.683 (0) Table wpjn_term_taxonomy: Total expected rows (approximate): 253
+0001.691 (0) Table wpjn_term_taxonomy: Rows added in this batch (next record: 253): 253 (uncompressed bytes in this segment=12012) in 0.01 seconds
+0001.713 (0) Table wpjn_term_taxonomy: finishing file(s) (2, 1.9 KB)
+0001.715 (0) Table wpjn_termmeta: Total expected rows (approximate): 0
+0001.720 (0) Table wpjn_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=574) in 0.00 seconds
+0001.745 (0) Table wpjn_termmeta: finishing file(s) (2, 0.4 KB)
+0001.747 (0) Table wpjn_terms: Total expected rows (approximate): 253
+0001.752 (0) Table wpjn_terms: Rows added in this batch (next record: 253): 253 (uncompressed bytes in this segment=12496) in 0.00 seconds
+0001.768 (0) Table wpjn_terms: finishing file(s) (2, 3.5 KB)
+0001.772 (0) Table wpjn_yoast_seo_links: Total expected rows (approximate): 100
+0001.775 (0) Table wpjn_yoast_seo_links: Rows added in this batch (next record: 1846): 100 (uncompressed bytes in this segment=9426) in 0.00 seconds
+0001.813 (0) Table wpjn_yoast_seo_links: finishing file(s) (2, 1.2 KB)
+0001.816 (0) Table wpjn_yoast_seo_meta: Total expected rows (approximate): 365
+0001.822 (0) Table wpjn_yoast_seo_meta: Rows added in this batch (next record: 1229): 365 (uncompressed bytes in this segment=5741) in 0.00 seconds
+0001.839 (0) Table wpjn_yoast_seo_meta: finishing file(s) (2, 1.3 KB)
+0001.843 (0) Table wpjn_actionscheduler_actions: Total expected rows (approximate): 5
+0001.849 (0) Table wpjn_actionscheduler_actions: Rows added in this batch (next record: 535): 5 (uncompressed bytes in this segment=3290) in 0.01 seconds
+0001.874 (0) Table wpjn_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0001.879 (0) Table wpjn_actionscheduler_claims: Total expected rows (approximate): 0
+0001.882 (0) Table wpjn_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0001.904 (0) Table wpjn_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0001.907 (0) Table wpjn_actionscheduler_groups: Total expected rows (approximate): 2
+0001.910 (0) Table wpjn_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=720) in 0.00 seconds
+0001.942 (0) Table wpjn_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0001.945 (0) Table wpjn_actionscheduler_logs: Total expected rows (approximate): 14
+0001.950 (0) Table wpjn_actionscheduler_logs: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=2036) in 0.00 seconds
+0001.979 (0) Table wpjn_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0001.982 (0) Table wpjn_aps_social_icons: Total expected rows (approximate): 0
+0001.986 (0) Table wpjn_aps_social_icons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.00 seconds
+0002.005 (0) Table wpjn_aps_social_icons: finishing file(s) (2, 0.4 KB)
+0002.008 (0) Table wpjn_cftemail_forms: Total expected rows (approximate): 1
+0002.012 (0) Table wpjn_cftemail_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6852) in 0.00 seconds
+0002.029 (0) Table wpjn_cftemail_forms: finishing file(s) (2, 1.5 KB)
+0002.032 (0) Table wpjn_cftemail_messages: Total expected rows (approximate): 1
+0002.037 (0) Table wpjn_cftemail_messages: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1350) in 0.00 seconds
+0002.058 (0) Table wpjn_cftemail_messages: finishing file(s) (2, 0.6 KB)
+0002.061 (0) Table wpjn_expm_hiiden_content: Total expected rows (approximate): 0
+0002.066 (0) Table wpjn_expm_hiiden_content: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=676) in 0.00 seconds
+0002.096 (0) Table wpjn_expm_hiiden_content: finishing file(s) (2, 0.4 KB)
+0002.100 (0) Table wpjn_expm_maker: Total expected rows (approximate): 1
+0002.104 (0) Table wpjn_expm_maker: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1531) in 0.00 seconds
+0002.130 (0) Table wpjn_expm_maker: finishing file(s) (2, 0.7 KB)
+0002.133 (0) Table wpjn_expm_maker_pages: Total expected rows (approximate): 0
+0002.136 (0) Table wpjn_expm_maker_pages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=505) in 0.00 seconds
+0002.172 (0) Table wpjn_expm_maker_pages: finishing file(s) (2, 0.3 KB)
+0002.175 (0) Table wpjn_fv_player_playermeta: Total expected rows (approximate): 2
+0002.182 (0) Table wpjn_fv_player_playermeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=871) in 0.01 seconds
+0002.229 (0) Table wpjn_fv_player_playermeta: finishing file(s) (2, 0.5 KB)
+0002.232 (0) Table wpjn_fv_player_players: Total expected rows (approximate): 1
+0002.238 (0) Table wpjn_fv_player_players: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3069) in 0.00 seconds
+0002.263 (0) Table wpjn_fv_player_players: finishing file(s) (2, 0.7 KB)
+0002.266 (0) Table wpjn_fv_player_videometa: Total expected rows (approximate): 0
+0002.271 (0) Table wpjn_fv_player_videometa: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.00 seconds
+0002.292 (0) Table wpjn_fv_player_videometa: finishing file(s) (2, 0.4 KB)
+0002.295 (0) Table wpjn_fv_player_videos: Total expected rows (approximate): 1
+0002.299 (0) Table wpjn_fv_player_videos: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1469) in 0.00 seconds
+0002.333 (0) Table wpjn_fv_player_videos: finishing file(s) (2, 0.5 KB)
+0002.336 (0) Table wpjn_gf_draft_submissions: Total expected rows (approximate): 0
+0002.340 (0) Table wpjn_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0002.437 (0) Table wpjn_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0002.440 (0) Table wpjn_gf_entry: Total expected rows (approximate): 0
+0002.443 (0) Table wpjn_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1566) in 0.00 seconds
+0002.458 (0) Table wpjn_gf_entry: finishing file(s) (2, 0.6 KB)
+0002.460 (0) Table wpjn_gf_entry_meta: Total expected rows (approximate): 0
+0002.465 (0) Table wpjn_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=849) in 0.00 seconds
+0002.488 (0) Table wpjn_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+0002.491 (0) Table wpjn_gf_entry_notes: Total expected rows (approximate): 0
+0002.496 (0) Table wpjn_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0002.518 (0) Table wpjn_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+0002.521 (0) Table wpjn_gf_form: Total expected rows (approximate): 0
+0002.523 (0) Table wpjn_gf_form: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.00 seconds
+0002.557 (0) Table wpjn_gf_form: finishing file(s) (2, 0.4 KB)
+0002.560 (0) Table wpjn_gf_form_meta: Total expected rows (approximate): 0
+0002.565 (0) Table wpjn_gf_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.00 seconds
+0002.586 (0) Table wpjn_gf_form_meta: finishing file(s) (2, 0.4 KB)
+0002.590 (0) Table wpjn_gf_form_revisions: Total expected rows (approximate): 0
+0002.596 (0) Table wpjn_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+0002.621 (0) Table wpjn_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0002.624 (0) Table wpjn_gf_form_view: Total expected rows (approximate): 0
+0002.627 (0) Table wpjn_gf_form_view: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0002.646 (0) Table wpjn_gf_form_view: finishing file(s) (2, 0.4 KB)
+0002.649 (0) Table wpjn_gg_attributes: Total expected rows (approximate): 0
+0002.652 (0) Table wpjn_gg_attributes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=478) in 0.00 seconds
+0002.674 (0) Table wpjn_gg_attributes: finishing file(s) (2, 0.3 KB)
+0002.678 (0) Table wpjn_gg_cdn: Total expected rows (approximate): 0
+0002.681 (0) Table wpjn_gg_cdn: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.00 seconds
+0002.699 (0) Table wpjn_gg_cdn: finishing file(s) (2, 0.3 KB)
+0002.702 (0) Table wpjn_gg_folders: Total expected rows (approximate): 0
+0002.705 (0) Table wpjn_gg_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=441) in 0.00 seconds
+0002.730 (0) Table wpjn_gg_folders: finishing file(s) (2, 0.3 KB)
+0002.733 (0) Table wpjn_gg_galleries: Total expected rows (approximate): 2
+0002.736 (0) Table wpjn_gg_galleries: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=574) in 0.00 seconds
+0002.983 (0) Table wpjn_gg_galleries: finishing file(s) (2, 0.4 KB)
+0002.986 (0) Table wpjn_gg_galleries_excluded: Total expected rows (approximate): 0
+0002.989 (0) Table wpjn_gg_galleries_excluded: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.00 seconds
+0003.066 (0) Table wpjn_gg_galleries_excluded: finishing file(s) (2, 0.3 KB)
+0003.069 (0) Table wpjn_gg_galleries_resources: Total expected rows (approximate): 43
+0003.073 (0) Table wpjn_gg_galleries_resources: Rows added in this batch (next record: 44): 43 (uncompressed bytes in this segment=1615) in 0.00 seconds
+0003.105 (0) Table wpjn_gg_galleries_resources: finishing file(s) (2, 0.6 KB)
+0003.108 (0) Table wpjn_gg_image_optimize: Total expected rows (approximate): 0
+0003.111 (0) Table wpjn_gg_image_optimize: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0003.158 (0) Table wpjn_gg_image_optimize: finishing file(s) (2, 0.4 KB)
+0003.161 (0) Table wpjn_gg_membership_presets: Total expected rows (approximate): 0
+0003.164 (0) Table wpjn_gg_membership_presets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=503) in 0.00 seconds
+0003.188 (0) Table wpjn_gg_membership_presets: finishing file(s) (2, 0.3 KB)
+0003.191 (0) Table wpjn_gg_photos: Total expected rows (approximate): 44
+0003.195 (0) Table wpjn_gg_photos: Rows added in this batch (next record: 44): 44 (uncompressed bytes in this segment=3525) in 0.00 seconds
+0003.298 (0) Table wpjn_gg_photos: finishing file(s) (2, 0.8 KB)
+0003.301 (0) Table wpjn_gg_photos_pos: Total expected rows (approximate): 44
+0003.305 (0) Table wpjn_gg_photos_pos: Rows added in this batch (next record: 237): 44 (uncompressed bytes in this segment=1933) in 0.00 seconds
+0003.329 (0) Table wpjn_gg_photos_pos: finishing file(s) (2, 0.7 KB)
+0003.332 (0) Table wpjn_gg_photos_settings: Total expected rows (approximate): 0
+0003.338 (0) Table wpjn_gg_photos_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=485) in 0.00 seconds
+0003.351 (0) Table wpjn_gg_photos_settings: finishing file(s) (2, 0.3 KB)
+0003.355 (0) Table wpjn_gg_settings_presets: Total expected rows (approximate): 0
+0003.358 (0) Table wpjn_gg_settings_presets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=501) in 0.00 seconds
+0003.377 (0) Table wpjn_gg_settings_presets: finishing file(s) (2, 0.3 KB)
+0003.381 (0) Table wpjn_gg_settings_sets: Total expected rows (approximate): 2
+0003.384 (0) Table wpjn_gg_settings_sets: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=7188) in 0.00 seconds
+0003.400 (0) Table wpjn_gg_settings_sets: finishing file(s) (2, 1.6 KB)
+0003.403 (0) Table wpjn_gg_stats: Total expected rows (approximate): 19
+0003.406 (0) Table wpjn_gg_stats: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1948) in 0.00 seconds
+0003.427 (0) Table wpjn_gg_stats: finishing file(s) (2, 0.8 KB)
+0003.429 (0) Table wpjn_gg_tags: Total expected rows (approximate): 0
+0003.433 (0) Table wpjn_gg_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=420) in 0.00 seconds
+0003.451 (0) Table wpjn_gg_tags: finishing file(s) (2, 0.3 KB)
+0003.454 (0) Table wpjn_nf3_action_meta: Total expected rows (approximate): 119
+0003.461 (0) Table wpjn_nf3_action_meta: Rows added in this batch (next record: 197): 119 (uncompressed bytes in this segment=11391) in 0.01 seconds
+0003.478 (0) Table wpjn_nf3_action_meta: finishing file(s) (2, 2 KB)
+0003.482 (0) Table wpjn_nf3_actions: Total expected rows (approximate): 4
+0003.487 (0) Table wpjn_nf3_actions: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0003.507 (0) Table wpjn_nf3_actions: finishing file(s) (2, 0.5 KB)
+0003.510 (0) Table wpjn_nf3_chunks: Total expected rows (approximate): 0
+0003.514 (0) Table wpjn_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=443) in 0.00 seconds
+0003.543 (0) Table wpjn_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0003.545 (0) Table wpjn_nf3_field_meta: Total expected rows (approximate): 288
+0003.553 (0) Table wpjn_nf3_field_meta: Rows added in this batch (next record: 548): 288 (uncompressed bytes in this segment=19858) in 0.01 seconds
+0003.573 (0) Table wpjn_nf3_field_meta: finishing file(s) (2, 2.9 KB)
+0003.576 (0) Table wpjn_nf3_fields: Total expected rows (approximate): 4
+0003.581 (0) Table wpjn_nf3_fields: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1543) in 0.00 seconds
+0003.601 (0) Table wpjn_nf3_fields: finishing file(s) (2, 0.6 KB)
+0003.605 (0) Table wpjn_nf3_form_meta: Total expected rows (approximate): 116
+0003.611 (0) Table wpjn_nf3_form_meta: Rows added in this batch (next record: 214): 116 (uncompressed bytes in this segment=9120) in 0.01 seconds
+0003.625 (0) Table wpjn_nf3_form_meta: finishing file(s) (2, 1.8 KB)
+0003.628 (0) Table wpjn_nf3_forms: Total expected rows (approximate): 1
+0003.637 (0) Table wpjn_nf3_forms: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1064) in 0.01 seconds
+0003.653 (0) Table wpjn_nf3_forms: finishing file(s) (2, 0.5 KB)
+0003.658 (0) Table wpjn_nf3_object_meta: Total expected rows (approximate): 0
+0003.666 (0) Table wpjn_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=544) in 0.01 seconds
+0003.677 (0) Table wpjn_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0003.680 (0) Table wpjn_nf3_objects: Total expected rows (approximate): 0
+0003.684 (0) Table wpjn_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.00 seconds
+0003.694 (0) Table wpjn_nf3_objects: finishing file(s) (2, 0.4 KB)
+0003.697 (0) Table wpjn_nf3_relationships: Total expected rows (approximate): 0
+0003.701 (0) Table wpjn_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.00 seconds
+0003.711 (0) Table wpjn_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0003.714 (0) Table wpjn_nf3_upgrades: Total expected rows (approximate): 1
+0003.721 (0) Table wpjn_nf3_upgrades: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=20707) in 0.01 seconds
+0003.733 (0) Table wpjn_nf3_upgrades: finishing file(s) (2, 3.1 KB)
+0003.736 (0) Table wpjn_pta_sus_sheets: Total expected rows (approximate): 0
+0003.740 (0) Table wpjn_pta_sus_sheets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1395) in 0.00 seconds
+0003.749 (0) Table wpjn_pta_sus_sheets: finishing file(s) (2, 0.5 KB)
+0003.752 (0) Table wpjn_pta_sus_signups: Total expected rows (approximate): 0
+0003.756 (0) Table wpjn_pta_sus_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1081) in 0.00 seconds
+0003.765 (0) Table wpjn_pta_sus_signups: finishing file(s) (2, 0.4 KB)
+0003.769 (0) Table wpjn_pta_sus_tasks: Total expected rows (approximate): 0
+0003.772 (0) Table wpjn_pta_sus_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1332) in 0.00 seconds
+0003.785 (0) Table wpjn_pta_sus_tasks: finishing file(s) (2, 0.5 KB)
+0003.788 (0) Table wpjn_responsive_video_grid: Total expected rows (approximate): 0
+0003.791 (0) Table wpjn_responsive_video_grid: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.00 seconds
+0003.800 (0) Table wpjn_responsive_video_grid: finishing file(s) (2, 0.5 KB)
+0003.803 (0) Table wpjn_super_buttons: Total expected rows (approximate): 1
+0003.808 (0) Table wpjn_super_buttons: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=799) in 0.00 seconds
+0003.817 (0) Table wpjn_super_buttons: finishing file(s) (2, 0.5 KB)
+0003.821 (0) Table wpjn_super_buttons_meta: Total expected rows (approximate): 31
+0003.825 (0) Table wpjn_super_buttons_meta: Rows added in this batch (next record: 4000): 31 (uncompressed bytes in this segment=13630) in 0.00 seconds
+0003.835 (0) Table wpjn_super_buttons_meta: finishing file(s) (2, 1.5 KB)
+0003.838 (0) Table wpjn_volunteer_emails: Total expected rows (approximate): 0
+0003.842 (0) Table wpjn_volunteer_emails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.00 seconds
+0003.854 (0) Table wpjn_volunteer_emails: finishing file(s) (2, 0.3 KB)
+0003.857 (0) Table wpjn_volunteer_rsvps: Total expected rows (approximate): 0
+0003.860 (0) Table wpjn_volunteer_rsvps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0003.870 (0) Table wpjn_volunteer_rsvps: finishing file(s) (2, 0.3 KB)
+0003.873 (0) Table wpjn_wpfm_backup: Total expected rows (approximate): 0
+0003.876 (0) Table wpjn_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=526) in 0.00 seconds
+0003.886 (0) Table wpjn_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0003.889 (0) Table wpjn_wpforms_tasks_meta: Total expected rows (approximate): 2
+0003.894 (0) Table wpjn_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=844) in 0.00 seconds
+0003.909 (0) Table wpjn_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0003.912 (0) Table wpjn_wpmailsmtp_tasks_meta: Total expected rows (approximate): 0
+0003.916 (0) Table wpjn_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.00 seconds
+0004.019 (0) Table wpjn_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0004.022 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_options.table.tmpr15307.gz (1/83/fopen): adding to final database dump
+0004.024 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_options.table.gz (2/83/fopen): adding to final database dump
+0004.025 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_users.table.tmpr4.gz (3/83/fopen): adding to final database dump
+0004.026 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_users.table.gz (4/83/fopen): adding to final database dump
+0004.026 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_usermeta.table.tmpr162.gz (5/83/fopen): adding to final database dump
+0004.027 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_usermeta.table.gz (6/83/fopen): adding to final database dump
+0004.028 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_commentmeta.table.tmpr0.gz (7/83/fopen): adding to final database dump
+0004.028 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_commentmeta.table.gz (8/83/fopen): adding to final database dump
+0004.029 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_comments.table.tmpr0.gz (9/83/fopen): adding to final database dump
+0004.030 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_comments.table.gz (10/83/fopen): adding to final database dump
+0004.030 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_bans.table.tmpr3.gz (11/83/fopen): adding to final database dump
+0004.031 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_bans.table.gz (12/83/fopen): adding to final database dump
+0004.031 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_distributed_storage.table.tmpr0.gz (13/83/fopen): adding to final database dump
+0004.032 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_distributed_storage.table.gz (14/83/fopen): adding to final database dump
+0004.032 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_fingerprints.table.tmpr0.gz (15/83/fopen): adding to final database dump
+0004.033 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_fingerprints.table.gz (16/83/fopen): adding to final database dump
+0004.033 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_geolocation_cache.table.tmpr0.gz (17/83/fopen): adding to final database dump
+0004.034 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_geolocation_cache.table.gz (18/83/fopen): adding to final database dump
+0004.035 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_lockouts.table.tmpr17.gz (19/83/fopen): adding to final database dump
+0004.035 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_lockouts.table.gz (20/83/fopen): adding to final database dump
+0004.036 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_logs.table.tmpr1431.gz (21/83/fopen): adding to final database dump
+0004.047 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_logs.table.gz (22/83/fopen): adding to final database dump
+0004.048 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_mutexes.table.tmpr0.gz (23/83/fopen): adding to final database dump
+0004.049 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_mutexes.table.gz (24/83/fopen): adding to final database dump
+0004.049 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_opaque_tokens.table.tmpr1.gz (25/83/fopen): adding to final database dump
+0004.050 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_opaque_tokens.table.gz (26/83/fopen): adding to final database dump
+0004.050 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_temp.table.tmpr213.gz (27/83/fopen): adding to final database dump
+0004.051 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_temp.table.gz (28/83/fopen): adding to final database dump
+0004.052 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_user_groups.table.tmpr1001.gz (29/83/fopen): adding to final database dump
+0004.052 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_itsec_user_groups.table.gz (30/83/fopen): adding to final database dump
+0004.053 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_links.table.tmpr0.gz (31/83/fopen): adding to final database dump
+0004.053 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_links.table.gz (32/83/fopen): adding to final database dump
+0004.054 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_postmeta.table.tmpr6594.gz (33/83/fopen): adding to final database dump
+0004.055 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_postmeta.table.gz (34/83/fopen): adding to final database dump
+0004.056 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_posts.table.tmpr1234.gz (35/83/fopen): adding to final database dump
+0004.057 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_posts.table.gz (36/83/fopen): adding to final database dump
+0004.057 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_term_relationships.table.tmpr100001.gz (37/83/fopen): adding to final database dump
+0004.058 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_term_relationships.table.gz (38/83/fopen): adding to final database dump
+0004.058 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_term_taxonomy.table.tmpr254.gz (39/83/fopen): adding to final database dump
+0004.059 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_term_taxonomy.table.gz (40/83/fopen): adding to final database dump
+0004.060 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_termmeta.table.tmpr0.gz (41/83/fopen): adding to final database dump
+0004.060 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_termmeta.table.gz (42/83/fopen): adding to final database dump
+0004.061 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_terms.table.tmpr254.gz (43/83/fopen): adding to final database dump
+0004.061 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_terms.table.gz (44/83/fopen): adding to final database dump
+0004.062 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_yoast_seo_links.table.tmpr1847.gz (45/83/fopen): adding to final database dump
+0004.062 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_yoast_seo_links.table.gz (46/83/fopen): adding to final database dump
+0004.063 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_yoast_seo_meta.table.tmpr1230.gz (47/83/fopen): adding to final database dump
+0004.064 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_yoast_seo_meta.table.gz (48/83/fopen): adding to final database dump
+0004.064 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_actions.table.tmpr536.gz (49/83/fopen): adding to final database dump
+0004.065 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_actions.table.gz (50/83/fopen): adding to final database dump
+0004.072 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_claims.table.tmpr0.gz (51/83/fopen): adding to final database dump
+0004.073 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_claims.table.gz (52/83/fopen): adding to final database dump
+0004.074 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_groups.table.tmpr3.gz (53/83/fopen): adding to final database dump
+0004.074 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_groups.table.gz (54/83/fopen): adding to final database dump
+0004.075 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_logs.table.tmpr15.gz (55/83/fopen): adding to final database dump
+0004.076 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_actionscheduler_logs.table.gz (56/83/fopen): adding to final database dump
+0004.076 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_aps_social_icons.table.tmpr0.gz (57/83/fopen): adding to final database dump
+0004.077 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_aps_social_icons.table.gz (58/83/fopen): adding to final database dump
+0004.078 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_cftemail_forms.table.tmpr2.gz (59/83/fopen): adding to final database dump
+0004.078 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_cftemail_forms.table.gz (60/83/fopen): adding to final database dump
+0004.079 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_cftemail_messages.table.tmpr2.gz (61/83/fopen): adding to final database dump
+0004.080 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_cftemail_messages.table.gz (62/83/fopen): adding to final database dump
+0004.080 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_hiiden_content.table.tmpr0.gz (63/83/fopen): adding to final database dump
+0004.081 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_hiiden_content.table.gz (64/83/fopen): adding to final database dump
+0004.082 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_maker.table.tmpr3.gz (65/83/fopen): adding to final database dump
+0004.083 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_maker.table.gz (66/83/fopen): adding to final database dump
+0004.083 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_maker_pages.table.tmpr0.gz (67/83/fopen): adding to final database dump
+0004.084 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_expm_maker_pages.table.gz (68/83/fopen): adding to final database dump
+0004.085 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_playermeta.table.tmpr3.gz (69/83/fopen): adding to final database dump
+0004.085 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_playermeta.table.gz (70/83/fopen): adding to final database dump
+0004.086 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_players.table.tmpr2.gz (71/83/fopen): adding to final database dump
+0004.086 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_players.table.gz (72/83/fopen): adding to final database dump
+0004.087 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_videometa.table.tmpr0.gz (73/83/fopen): adding to final database dump
+0004.088 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_videometa.table.gz (74/83/fopen): adding to final database dump
+0004.088 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_videos.table.tmpr2.gz (75/83/fopen): adding to final database dump
+0004.089 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_fv_player_videos.table.gz (76/83/fopen): adding to final database dump
+0004.089 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_draft_submissions.table.tmpr1.gz (77/83/fopen): adding to final database dump
+0004.090 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_draft_submissions.table.gz (78/83/fopen): adding to final database dump
+0004.091 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry.table.tmpr0.gz (79/83/fopen): adding to final database dump
+0004.091 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry.table.gz (80/83/fopen): adding to final database dump
+0004.092 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry_meta.table.tmpr0.gz (81/83/fopen): adding to final database dump
+0004.092 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry_meta.table.gz (82/83/fopen): adding to final database dump
+0004.093 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry_notes.table.tmpr0.gz (83/83/fopen): adding to final database dump
+0004.094 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_entry_notes.table.gz (84/83/fopen): adding to final database dump
+0004.095 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form.table.tmpr0.gz (85/83/fopen): adding to final database dump
+0004.095 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form.table.gz (86/83/fopen): adding to final database dump
+0004.096 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_meta.table.tmpr0.gz (87/83/fopen): adding to final database dump
+0004.096 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_meta.table.gz (88/83/fopen): adding to final database dump
+0004.097 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_revisions.table.tmpr0.gz (89/83/fopen): adding to final database dump
+0004.098 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_revisions.table.gz (90/83/fopen): adding to final database dump
+0004.098 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_view.table.tmpr0.gz (91/83/fopen): adding to final database dump
+0004.099 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gf_form_view.table.gz (92/83/fopen): adding to final database dump
+0004.099 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_attributes.table.tmpr0.gz (93/83/fopen): adding to final database dump
+0004.100 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_attributes.table.gz (94/83/fopen): adding to final database dump
+0004.101 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_cdn.table.tmpr0.gz (95/83/fopen): adding to final database dump
+0004.101 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_cdn.table.gz (96/83/fopen): adding to final database dump
+0004.102 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_folders.table.tmpr0.gz (97/83/fopen): adding to final database dump
+0004.103 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_folders.table.gz (98/83/fopen): adding to final database dump
+0004.104 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries.table.tmpr3.gz (99/83/fopen): adding to final database dump
+0004.105 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries.table.gz (100/83/fopen): adding to final database dump
+0004.106 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries_excluded.table.tmpr0.gz (101/83/fopen): adding to final database dump
+0004.107 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries_excluded.table.gz (102/83/fopen): adding to final database dump
+0004.107 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries_resources.table.tmpr45.gz (103/83/fopen): adding to final database dump
+0004.108 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_galleries_resources.table.gz (104/83/fopen): adding to final database dump
+0004.109 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_image_optimize.table.tmpr0.gz (105/83/fopen): adding to final database dump
+0004.109 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_image_optimize.table.gz (106/83/fopen): adding to final database dump
+0004.110 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_membership_presets.table.tmpr0.gz (107/83/fopen): adding to final database dump
+0004.111 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_membership_presets.table.gz (108/83/fopen): adding to final database dump
+0004.111 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos.table.tmpr45.gz (109/83/fopen): adding to final database dump
+0004.112 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos.table.gz (110/83/fopen): adding to final database dump
+0004.112 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos_pos.table.tmpr238.gz (111/83/fopen): adding to final database dump
+0004.113 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos_pos.table.gz (112/83/fopen): adding to final database dump
+0004.114 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos_settings.table.tmpr0.gz (113/83/fopen): adding to final database dump
+0004.114 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_photos_settings.table.gz (114/83/fopen): adding to final database dump
+0004.115 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_settings_presets.table.tmpr0.gz (115/83/fopen): adding to final database dump
+0004.115 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_settings_presets.table.gz (116/83/fopen): adding to final database dump
+0004.116 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_settings_sets.table.tmpr3.gz (117/83/fopen): adding to final database dump
+0004.117 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_settings_sets.table.gz (118/83/fopen): adding to final database dump
+0004.117 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_stats.table.tmpr23.gz (119/83/fopen): adding to final database dump
+0004.118 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_stats.table.gz (120/83/fopen): adding to final database dump
+0004.118 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_tags.table.tmpr0.gz (121/83/fopen): adding to final database dump
+0004.119 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_gg_tags.table.gz (122/83/fopen): adding to final database dump
+0004.119 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_action_meta.table.tmpr198.gz (123/83/fopen): adding to final database dump
+0004.120 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_action_meta.table.gz (124/83/fopen): adding to final database dump
+0004.121 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_actions.table.tmpr9.gz (125/83/fopen): adding to final database dump
+0004.121 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_actions.table.gz (126/83/fopen): adding to final database dump
+0004.122 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_chunks.table.tmpr0.gz (127/83/fopen): adding to final database dump
+0004.123 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_chunks.table.gz (128/83/fopen): adding to final database dump
+0004.123 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_field_meta.table.tmpr549.gz (129/83/fopen): adding to final database dump
+0004.124 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_field_meta.table.gz (130/83/fopen): adding to final database dump
+0004.125 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_fields.table.tmpr9.gz (131/83/fopen): adding to final database dump
+0004.125 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_fields.table.gz (132/83/fopen): adding to final database dump
+0004.126 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_form_meta.table.tmpr215.gz (133/83/fopen): adding to final database dump
+0004.127 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_form_meta.table.gz (134/83/fopen): adding to final database dump
+0004.127 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_forms.table.tmpr3.gz (135/83/fopen): adding to final database dump
+0004.128 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_forms.table.gz (136/83/fopen): adding to final database dump
+0004.128 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_object_meta.table.tmpr0.gz (137/83/fopen): adding to final database dump
+0004.129 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_object_meta.table.gz (138/83/fopen): adding to final database dump
+0004.130 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_objects.table.tmpr0.gz (139/83/fopen): adding to final database dump
+0004.130 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_objects.table.gz (140/83/fopen): adding to final database dump
+0004.131 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_relationships.table.tmpr0.gz (141/83/fopen): adding to final database dump
+0004.132 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_relationships.table.gz (142/83/fopen): adding to final database dump
+0004.132 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_upgrades.table.tmpr3.gz (143/83/fopen): adding to final database dump
+0004.133 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_nf3_upgrades.table.gz (144/83/fopen): adding to final database dump
+0004.134 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_sheets.table.tmpr0.gz (145/83/fopen): adding to final database dump
+0004.134 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_sheets.table.gz (146/83/fopen): adding to final database dump
+0004.135 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_signups.table.tmpr0.gz (147/83/fopen): adding to final database dump
+0004.136 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_signups.table.gz (148/83/fopen): adding to final database dump
+0004.137 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_tasks.table.tmpr0.gz (149/83/fopen): adding to final database dump
+0004.137 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_pta_sus_tasks.table.gz (150/83/fopen): adding to final database dump
+0004.138 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_responsive_video_grid.table.tmpr0.gz (151/83/fopen): adding to final database dump
+0004.138 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_responsive_video_grid.table.gz (152/83/fopen): adding to final database dump
+0004.139 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_super_buttons.table.tmpr3.gz (153/83/fopen): adding to final database dump
+0004.140 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_super_buttons.table.gz (154/83/fopen): adding to final database dump
+0004.140 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_super_buttons_meta.table.tmpr4001.gz (155/83/fopen): adding to final database dump
+0004.141 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_super_buttons_meta.table.gz (156/83/fopen): adding to final database dump
+0004.142 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_volunteer_emails.table.tmpr0.gz (157/83/fopen): adding to final database dump
+0004.142 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_volunteer_emails.table.gz (158/83/fopen): adding to final database dump
+0004.143 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_volunteer_rsvps.table.tmpr0.gz (159/83/fopen): adding to final database dump
+0004.144 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_volunteer_rsvps.table.gz (160/83/fopen): adding to final database dump
+0004.144 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpfm_backup.table.tmpr0.gz (161/83/fopen): adding to final database dump
+0004.145 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpfm_backup.table.gz (162/83/fopen): adding to final database dump
+0004.146 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpforms_tasks_meta.table.tmpr3.gz (163/83/fopen): adding to final database dump
+0004.146 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpforms_tasks_meta.table.gz (164/83/fopen): adding to final database dump
+0004.147 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpmailsmtp_tasks_meta.table.tmpr0.gz (165/83/fopen): adding to final database dump
+0004.147 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db-table-wpjn_wpmailsmtp_tasks_meta.table.gz (166/83/fopen): adding to final database dump
+0005.274 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz: finished writing out complete database file (1945.1 KB)
+0005.410 (0) Total database tables backed up: 83 (backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz, size: 1991920, sha1: bb01848547b5b62f50ef0b041cd3b152fefc184d, sha256: b72278437aabf7dd34bddc0fff31e7788d85da144ba364730ada5d4ce0773727)
+0005.419 (0) backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.419 (0) Saving backup history. Total backup size: 1.9 MB
+0005.423 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0005.425 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0005.426 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+0005.426 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0005.828 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0006.400 (0) Dropbox: quota usage: used=535.5 MB, total=2048 MB, available=1512.5 MB
+0006.401 (0) Dropbox: Attempt to upload: backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz to: backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz
+0008.351 (0) Dropbox chunked upload: 52.6 % uploaded (AAAAAAAAAe2RfXklJesfJA, 1048576, 2560 KB)
+0009.571 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAe2RfXklJesfJA, 1991920, 2560 KB)
+0011.237 (0) Recording as successfully uploaded: backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz
+0011.239 (0) Deleting local file: backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz: OK
+0011.240 (0) Dropbox: File upload success (backup_2021-08-02-1804_Roshika_Gang_of_Animal_Lovers_59b8df33428e-db.gz): 1945 KB in 4s (401 KB/s)
+0011.244 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0011.246 (0) Number of backup sets in history: 15; groups (db): 1
+0011.247 (0) Examining (for databases) backup set with group_id=0, nonce=59b8df33428e, datestamp=1627927496 (Aug 02 2021 18:04:56)
+0011.247 (0) This backup set is the backup set just made, so will not be deleted.
+0011.247 (0) Examining (for databases) backup set with group_id=0, nonce=8ee51e795823, datestamp=1627837982 (Aug 01 2021 17:13:02)
+0011.247 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=3aacd55d8825, datestamp=1627756948 (Jul 31 2021 18:42:28)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=4a6db2adc086, datestamp=1627664944 (Jul 30 2021 17:09:04)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=eb964fac1e3a, datestamp=1627584377 (Jul 29 2021 18:46:17)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+0011.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.248 (0) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+0011.248 (0) 1627071741: db: this set includes a database (backup_2021-07-23-2022_Roshika_Gang_of_Animal_Lovers_b9eed798e9ab-db.gz); db count is now 10
+0011.248 (0) 1627071741: db: over retain limit (10); will delete this database
+0011.248 (0) Delete file: backup_2021-07-23-2022_Roshika_Gang_of_Animal_Lovers_b9eed798e9ab-db.gz, service=dropbox
+0011.249 (0) Dropbox: request deletion: backup_2021-07-23-2022_Roshika_Gang_of_Animal_Lovers_b9eed798e9ab-db.gz
+0012.051 (0) Dropbox: deletion succeeded
+0012.053 (0) This backup set is now empty; will remove from history
+0012.054 (0) Deleting log file (log.b9eed798e9ab.txt)
+0012.055 (0) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+0012.055 (0) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+0012.055 (0) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+0012.055 (0) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+0012.055 (0) Number of backup sets in history: 14; groups (files): 1
+0012.056 (0) Examining (for files) backup set with nonce=59b8df33428e, datestamp=1627927496 (Aug 02 2021 18:04:56)
+0012.056 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.056 (0) Examining (for files) backup set with nonce=8ee51e795823, datestamp=1627837982 (Aug 01 2021 17:13:02)
+0012.056 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.056 (0) Examining (for files) backup set with nonce=3aacd55d8825, datestamp=1627756948 (Jul 31 2021 18:42:28)
+0012.056 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.056 (0) Examining (for files) backup set with nonce=4a6db2adc086, datestamp=1627664944 (Jul 30 2021 17:09:04)
+0012.056 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=eb964fac1e3a, datestamp=1627584377 (Jul 29 2021 18:46:17)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+0012.057 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0012.057 (0) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+0012.057 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.058 (0) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+0012.058 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.058 (0) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+0012.058 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.058 (0) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+0012.058 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.058 (0) Retain: saving new backup history (sets now: 14) and finishing retain operation
+0012.062 (0) Resume backup (59b8df33428e, 0): finish run
+0012.063 (0) Decremented the semaphore (d) by 1
+0012.065 (0) Semaphore (d) unlocked
+0012.065 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0012.067 (0) Fetching RSS news feed
+0012.962 (0) Fetched RSS news feed; result is a: SimplePie
+0013.157 (0) Sending email ('Database only (files were not part of this particular schedule)') report (attachments: 0, size: 0 KB) to: sumit...
+0013.345 (0) The backup apparently succeeded and is now complete

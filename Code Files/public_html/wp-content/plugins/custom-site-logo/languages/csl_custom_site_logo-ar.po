@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Site Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 18:40+0000\n"
+"PO-Revision-Date: 2019-06-25 10:53+0000\n"
+"Last-Translator: admin <awais.altaf@nxb.com.pk>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Awais Altaf"
+msgstr ""
+
+#: custom-site-logo.php:107
+msgid "Center Logo"
+msgstr ""
+"شعار المركز\n"
+
+#: custom-site-logo.php:287
+msgid "Check logo preview with hover effect if selected"
+msgstr ""
+"تحقق من معاينة الشعار مع تأثير التحويم في حالة تحديده\n"
+
+#: custom-site-logo.php:235
+msgid "Check this option for responsive logo."
+msgstr ""
+"حدد هذا الخيار للشعار المستجيب.\n"
+
+#: custom-site-logo.php:218
+msgid "Check this option to center the logo."
+msgstr ""
+"حدد هذا الخيار لتوسيط الشعار.\n"
+
+#: custom-site-logo.php:68
+msgid "Choose Hover Effect"
+msgstr ""
+"اختر تأثير التحويم\n"
+
+#. Adding this submenu to Settings Main Menu
+#. Name of the plugin
+#: custom-site-logo.php:321 custom-site-logo.php:322
+msgid "Custom Site Logo"
+msgstr ""
+"شعار موقع مخصص\n"
+
+#: custom-site-logo.php:47
+msgid "Custom Site Logo Settings"
+msgstr ""
+"إعدادات شعار الموقع المخصص\n"
+
+#: custom-site-logo.php:153
+msgid ""
+"Dear user, kindly paste <?php echo csl_CustomSiteLogo_show_logo(); ?> in "
+"your template where you want to display the logo.<br><br>"
+msgstr ""
+"عزيزي المستخدم ، يرجى لصق  php echo csl_CustomSiteLogo_show_logo ()؛  في "
+"القالب الخاص بك حيث تريد عرض الشعار.\n"
+
+#: custom-site-logo.php:157
+msgid ""
+"Dear user, kindly paste shortcode [csl_display_logo] in your post, page or "
+"any editor where you want to display the logo."
+msgstr ""
+"عزيزي المستخدم ، يرجى لصق الرمز القصير [csl_display_logo] في المنشور أو "
+"الصفحة أو أي محرر ترغب في عرض الشعار فيه.\n"
+
+#: custom-site-logo.php:172
+msgid "Enter an image URL or use an image from media library."
+msgstr ""
+"أدخل عنوان URL للصورة أو استخدم صورة من مكتبة الوسائط.\n"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://feastsolutions.com"
+msgstr ""
+
+#: custom-site-logo.php:133
+msgid "Link logo to custom URL"
+msgstr ""
+"ربط الشعار بعنوان URL المخصص\n"
+
+#: custom-site-logo.php:94
+msgid "Logo Height"
+msgstr ""
+"ارتفاع الشعار\n"
+
+#: custom-site-logo.php:338
+msgid "Logo Settings Saved Successfully"
+msgstr ""
+"تم حفظ إعدادات الشعار بنجاح\n"
+
+#: custom-site-logo.php:81
+msgid "Logo Width"
+msgstr ""
+"عرض الشعار\n"
+
+#: custom-site-logo.php:120
+msgid "Make Logo Responsive"
+msgstr ""
+"جعل الشعار مستجيب\n"
+
+#: custom-site-logo.php:294
+msgid "No Preview Available"
+msgstr ""
+"لا تتوفر معاينة\n"
+
+#: custom-site-logo.php:215
+msgid "Please check if you want to center the logo"
+msgstr ""
+"يرجى التحقق مما إذا كنت تريد توسيط الشعار\n"
+
+#: custom-site-logo.php:232
+msgid "Please check if you want to make logo responsive"
+msgstr ""
+"يرجى التحقق مما إذا كنت تريد أن تجعل الشعار مستجيبًا\n"
+
+#: custom-site-logo.php:250
+msgid "Put any custom URL."
+msgstr ""
+"ضع أي عنوان URL مخصص.\n"
+
+#: custom-site-logo.php:247
+msgid "Put custom link here."
+msgstr ""
+"ضع الرابط المخصص هنا.\n"
+
+#: custom-site-logo.php:200
+msgid ""
+"Put height in px. If you want default logo height with just leave it empty."
+msgstr ""
+"ضع الارتفاع بالبكسل. إذا كنت تريد ارتفاع الشعار الافتراضي مع اتركه فارغًا.\n"
+
+#: custom-site-logo.php:187
+msgid ""
+"Put width in px. If you want default logo width with just leave it empty."
+msgstr ""
+"وضع العرض في بكسل. إذا كنت تريد عرض الشعار الافتراضي مع اتركه فارغًا.\n"
+
+#: custom-site-logo.php:290
+msgid "Select best hover effects"
+msgstr ""
+"حدد أفضل تأثيرات التحويم\n"
+
+#: custom-site-logo.php:170
+msgid "Select Logo"
+msgstr ""
+"اختر الشعار\n"
+
+#. Description of the plugin
+msgid "This is a plugin to show the custom logo in site header or any where."
+msgstr ""
+"هذا هو البرنامج المساعد لإظهار الشعار المخصص في رأس الموقع أو في أي مكان.\n"
+
+#: custom-site-logo.php:55
+msgid "Upload Image"
+msgstr ""
+"تحميل الصور\n"

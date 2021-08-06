@@ -1,0 +1,1275 @@
+0000.019 (0) Opened log file at time: Wed, 28 Jul 2021 18:38:59 +0000 on http://www.rgoal.in
+0000.021 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 45.8M | 26.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 13278012 MB
+0000.047 (0) Tasks: Backup files:  (schedule: manual) Backup DB: 1 (schedule: daily)
+0000.047 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.149 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1627410738, seconds_ago=86801)
+0000.151 (0) Set semaphore last lock (d) time to 2021-07-28 18:38:59
+0000.152 (0) Semaphore lock (d) complete
+0000.155 (0) Backup run: resumption=0, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (0s ago), job type=backup
+0000.156 (0) Scheduling a resumption (1) after 300 seconds (1627497839) in case this run gets aborted
+0000.314 (0) This backup run is not intended for files - skipping
+0000.315 (0) Beginning creation of database dump (WordPress DB)
+0000.316 (0) Couldn't get the sql_mode value (N;)
+0000.317 (0) SQL compatibility mode successfully changed to 
+0000.319 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.377 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0000.424 (0) Binary mysqldump: error (code: 5)
+0000.446 (0) Table wpjn_options: Total expected rows (approximate): 455
+0000.495 (0) Table wpjn_options: Rows added in this batch (next record: 15108): 459 (uncompressed bytes in this segment=1122368) in 0.05 seconds
+0000.523 (0) Table wpjn_options: finishing file(s) (2, 150.9 KB)
+0000.526 (0) Table wpjn_users: Total expected rows (approximate): 2
+0000.529 (0) Table wpjn_users: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1351) in 0.00 seconds
+0000.547 (0) Table wpjn_users: finishing file(s) (2, 0.7 KB)
+0000.550 (0) Table wpjn_usermeta: Total expected rows (approximate): 107
+0000.553 (0) Table wpjn_usermeta: Rows added in this batch (next record: 161): 107 (uncompressed bytes in this segment=9692) in 0.00 seconds
+0000.589 (0) Table wpjn_usermeta: finishing file(s) (2, 3.3 KB)
+0000.592 (0) Table wpjn_commentmeta: Total expected rows (approximate): 0
+0000.595 (0) Table wpjn_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.00 seconds
+0000.618 (0) Table wpjn_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.621 (0) Table wpjn_comments: Total expected rows (approximate): 0
+0000.624 (0) Table wpjn_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1428) in 0.00 seconds
+0000.648 (0) Table wpjn_comments: finishing file(s) (2, 0.5 KB)
+0000.651 (0) Table wpjn_itsec_bans: Total expected rows (approximate): 2
+0000.653 (0) Table wpjn_itsec_bans: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1123) in 0.00 seconds
+0000.681 (0) Table wpjn_itsec_bans: finishing file(s) (2, 0.5 KB)
+0000.684 (0) Table wpjn_itsec_distributed_storage: Total expected rows (approximate): 0
+0000.687 (0) Table wpjn_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=927) in 0.00 seconds
+0000.704 (0) Table wpjn_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0000.707 (0) Table wpjn_itsec_fingerprints: Total expected rows (approximate): 0
+0000.710 (0) Table wpjn_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.00 seconds
+0000.726 (0) Table wpjn_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0000.729 (0) Table wpjn_itsec_geolocation_cache: Total expected rows (approximate): 0
+0000.732 (0) Table wpjn_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=949) in 0.00 seconds
+0000.754 (0) Table wpjn_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0000.757 (0) Table wpjn_itsec_lockouts: Total expected rows (approximate): 11
+0000.760 (0) Table wpjn_itsec_lockouts: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=10148) in 0.00 seconds
+0000.778 (0) Table wpjn_itsec_lockouts: finishing file(s) (2, 1.1 KB)
+0000.781 (0) Table wpjn_itsec_logs: Total expected rows (approximate): 362
+0001.221 (0) Table wpjn_itsec_logs: Rows added in this batch (next record: 1406): 671 (uncompressed bytes in this segment=19336813) in 0.44 seconds
+0001.241 (0) Table wpjn_itsec_logs: finishing file(s) (2, 1397 KB)
+0001.244 (0) Table wpjn_itsec_mutexes: Total expected rows (approximate): 0
+0001.247 (0) Table wpjn_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.00 seconds
+0001.263 (0) Table wpjn_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0001.266 (0) Table wpjn_itsec_opaque_tokens: Total expected rows (approximate): 0
+0001.269 (0) Table wpjn_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=779) in 0.00 seconds
+0001.289 (0) Table wpjn_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0001.292 (0) Table wpjn_itsec_temp: Total expected rows (approximate): 162
+0001.296 (0) Table wpjn_itsec_temp: Rows added in this batch (next record: 202): 202 (uncompressed bytes in this segment=19818) in 0.00 seconds
+0001.316 (0) Table wpjn_itsec_temp: finishing file(s) (2, 2.4 KB)
+0001.319 (0) Table wpjn_itsec_user_groups: Total expected rows (approximate): 5
+0001.322 (0) Table wpjn_itsec_user_groups: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=1446) in 0.00 seconds
+0001.340 (0) Table wpjn_itsec_user_groups: finishing file(s) (2, 0.6 KB)
+0001.343 (0) Table wpjn_links: Total expected rows (approximate): 0
+0001.346 (0) Table wpjn_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1009) in 0.00 seconds
+0001.361 (0) Table wpjn_links: finishing file(s) (2, 0.4 KB)
+0001.364 (0) Table wpjn_postmeta: Total expected rows (approximate): 2571
+0001.454 (0) Table wpjn_postmeta: Rows added in this batch (next record: 6593): 3409 (uncompressed bytes in this segment=2797954) in 0.09 seconds
+0001.479 (0) Table wpjn_postmeta: finishing file(s) (2, 203.9 KB)
+0001.482 (0) Table wpjn_posts: Total expected rows (approximate): 763
+0001.522 (0) Table wpjn_posts: Rows added in this batch (next record: 1232): 811 (uncompressed bytes in this segment=1179600) in 0.04 seconds
+0001.544 (0) Table wpjn_posts: finishing file(s) (2, 81.7 KB)
+0001.547 (0) Table wpjn_term_relationships: Total expected rows (approximate): 306
+0001.551 (0) Table wpjn_term_relationships: Rows added in this batch (next record: 100000): 306 (uncompressed bytes in this segment=5162) in 0.00 seconds
+0001.575 (0) Table wpjn_term_relationships: finishing file(s) (2, 1.1 KB)
+0001.578 (0) Table wpjn_term_taxonomy: Total expected rows (approximate): 253
+0001.583 (0) Table wpjn_term_taxonomy: Rows added in this batch (next record: 253): 253 (uncompressed bytes in this segment=12012) in 0.00 seconds
+0001.622 (0) Table wpjn_term_taxonomy: finishing file(s) (2, 1.9 KB)
+0001.625 (0) Table wpjn_termmeta: Total expected rows (approximate): 0
+0001.628 (0) Table wpjn_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=574) in 0.00 seconds
+0001.656 (0) Table wpjn_termmeta: finishing file(s) (2, 0.4 KB)
+0001.659 (0) Table wpjn_terms: Total expected rows (approximate): 253
+0001.664 (0) Table wpjn_terms: Rows added in this batch (next record: 253): 253 (uncompressed bytes in this segment=12496) in 0.00 seconds
+0001.678 (0) Table wpjn_terms: finishing file(s) (2, 3.5 KB)
+0001.682 (0) Table wpjn_yoast_seo_links: Total expected rows (approximate): 100
+0001.686 (0) Table wpjn_yoast_seo_links: Rows added in this batch (next record: 1646): 100 (uncompressed bytes in this segment=9426) in 0.00 seconds
+0001.703 (0) Table wpjn_yoast_seo_links: finishing file(s) (2, 1.3 KB)
+0001.706 (0) Table wpjn_yoast_seo_meta: Total expected rows (approximate): 365
+0001.710 (0) Table wpjn_yoast_seo_meta: Rows added in this batch (next record: 1229): 365 (uncompressed bytes in this segment=5741) in 0.00 seconds
+0001.758 (0) Table wpjn_yoast_seo_meta: finishing file(s) (2, 1.3 KB)
+0001.763 (0) Table wpjn_actionscheduler_actions: Total expected rows (approximate): 5
+0001.767 (0) Table wpjn_actionscheduler_actions: Rows added in this batch (next record: 535): 5 (uncompressed bytes in this segment=3290) in 0.00 seconds
+0001.794 (0) Table wpjn_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0001.798 (0) Table wpjn_actionscheduler_claims: Total expected rows (approximate): 0
+0001.801 (0) Table wpjn_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0001.815 (0) Table wpjn_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0001.819 (0) Table wpjn_actionscheduler_groups: Total expected rows (approximate): 2
+0001.822 (0) Table wpjn_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=720) in 0.00 seconds
+0001.837 (0) Table wpjn_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0001.841 (0) Table wpjn_actionscheduler_logs: Total expected rows (approximate): 14
+0001.845 (0) Table wpjn_actionscheduler_logs: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=2036) in 0.00 seconds
+0001.864 (0) Table wpjn_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0001.868 (0) Table wpjn_aps_social_icons: Total expected rows (approximate): 0
+0001.871 (0) Table wpjn_aps_social_icons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.00 seconds
+0001.897 (0) Table wpjn_aps_social_icons: finishing file(s) (2, 0.4 KB)
+0001.901 (0) Table wpjn_cftemail_forms: Total expected rows (approximate): 1
+0001.906 (0) Table wpjn_cftemail_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6852) in 0.00 seconds
+0001.932 (0) Table wpjn_cftemail_forms: finishing file(s) (2, 1.5 KB)
+0001.936 (0) Table wpjn_cftemail_messages: Total expected rows (approximate): 1
+0001.942 (0) Table wpjn_cftemail_messages: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1350) in 0.01 seconds
+0001.963 (0) Table wpjn_cftemail_messages: finishing file(s) (2, 0.6 KB)
+0001.966 (0) Table wpjn_expm_hiiden_content: Total expected rows (approximate): 0
+0001.970 (0) Table wpjn_expm_hiiden_content: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=676) in 0.00 seconds
+0001.988 (0) Table wpjn_expm_hiiden_content: finishing file(s) (2, 0.4 KB)
+0001.992 (0) Table wpjn_expm_maker: Total expected rows (approximate): 1
+0001.997 (0) Table wpjn_expm_maker: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1531) in 0.00 seconds
+0002.019 (0) Table wpjn_expm_maker: finishing file(s) (2, 0.7 KB)
+0002.023 (0) Table wpjn_expm_maker_pages: Total expected rows (approximate): 0
+0002.026 (0) Table wpjn_expm_maker_pages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=505) in 0.00 seconds
+0002.054 (0) Table wpjn_expm_maker_pages: finishing file(s) (2, 0.3 KB)
+0002.057 (0) Table wpjn_fv_player_playermeta: Total expected rows (approximate): 2
+0002.061 (0) Table wpjn_fv_player_playermeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=871) in 0.00 seconds
+0002.079 (0) Table wpjn_fv_player_playermeta: finishing file(s) (2, 0.5 KB)
+0002.083 (0) Table wpjn_fv_player_players: Total expected rows (approximate): 1
+0002.086 (0) Table wpjn_fv_player_players: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3069) in 0.00 seconds
+0002.108 (0) Table wpjn_fv_player_players: finishing file(s) (2, 0.7 KB)
+0002.112 (0) Table wpjn_fv_player_videometa: Total expected rows (approximate): 0
+0002.115 (0) Table wpjn_fv_player_videometa: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.00 seconds
+0002.134 (0) Table wpjn_fv_player_videometa: finishing file(s) (2, 0.4 KB)
+0002.138 (0) Table wpjn_fv_player_videos: Total expected rows (approximate): 1
+0002.141 (0) Table wpjn_fv_player_videos: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1469) in 0.00 seconds
+0002.159 (0) Table wpjn_fv_player_videos: finishing file(s) (2, 0.5 KB)
+0002.164 (0) Table wpjn_gf_draft_submissions: Total expected rows (approximate): 0
+0002.168 (0) Table wpjn_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0002.186 (0) Table wpjn_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0002.190 (0) Table wpjn_gf_entry: Total expected rows (approximate): 0
+0002.193 (0) Table wpjn_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1566) in 0.00 seconds
+0002.211 (0) Table wpjn_gf_entry: finishing file(s) (2, 0.6 KB)
+0002.214 (0) Table wpjn_gf_entry_meta: Total expected rows (approximate): 0
+0002.217 (0) Table wpjn_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=849) in 0.00 seconds
+0002.239 (0) Table wpjn_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+0002.242 (0) Table wpjn_gf_entry_notes: Total expected rows (approximate): 0
+0002.245 (0) Table wpjn_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0002.261 (0) Table wpjn_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+0002.264 (0) Table wpjn_gf_form: Total expected rows (approximate): 0
+0002.267 (0) Table wpjn_gf_form: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.00 seconds
+0002.291 (0) Table wpjn_gf_form: finishing file(s) (2, 0.4 KB)
+0002.295 (0) Table wpjn_gf_form_meta: Total expected rows (approximate): 0
+0002.298 (0) Table wpjn_gf_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.00 seconds
+0002.319 (0) Table wpjn_gf_form_meta: finishing file(s) (2, 0.4 KB)
+0002.323 (0) Table wpjn_gf_form_revisions: Total expected rows (approximate): 0
+0002.325 (0) Table wpjn_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.00 seconds
+0002.357 (0) Table wpjn_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0002.361 (0) Table wpjn_gf_form_view: Total expected rows (approximate): 0
+0002.364 (0) Table wpjn_gf_form_view: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0002.389 (0) Table wpjn_gf_form_view: finishing file(s) (2, 0.4 KB)
+0002.393 (0) Table wpjn_gg_attributes: Total expected rows (approximate): 0
+0002.396 (0) Table wpjn_gg_attributes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=478) in 0.00 seconds
+0002.416 (0) Table wpjn_gg_attributes: finishing file(s) (2, 0.3 KB)
+0002.419 (0) Table wpjn_gg_cdn: Total expected rows (approximate): 0
+0002.422 (0) Table wpjn_gg_cdn: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.00 seconds
+0002.448 (0) Table wpjn_gg_cdn: finishing file(s) (2, 0.3 KB)
+0002.451 (0) Table wpjn_gg_folders: Total expected rows (approximate): 0
+0002.455 (0) Table wpjn_gg_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=441) in 0.00 seconds
+0002.478 (0) Table wpjn_gg_folders: finishing file(s) (2, 0.3 KB)
+0002.482 (0) Table wpjn_gg_galleries: Total expected rows (approximate): 2
+0002.486 (0) Table wpjn_gg_galleries: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=574) in 0.00 seconds
+0002.503 (0) Table wpjn_gg_galleries: finishing file(s) (2, 0.4 KB)
+0002.506 (0) Table wpjn_gg_galleries_excluded: Total expected rows (approximate): 0
+0002.509 (0) Table wpjn_gg_galleries_excluded: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.00 seconds
+0002.539 (0) Table wpjn_gg_galleries_excluded: finishing file(s) (2, 0.3 KB)
+0002.542 (0) Table wpjn_gg_galleries_resources: Total expected rows (approximate): 43
+0002.545 (0) Table wpjn_gg_galleries_resources: Rows added in this batch (next record: 44): 43 (uncompressed bytes in this segment=1615) in 0.00 seconds
+0002.564 (0) Table wpjn_gg_galleries_resources: finishing file(s) (2, 0.6 KB)
+0002.567 (0) Table wpjn_gg_image_optimize: Total expected rows (approximate): 0
+0002.571 (0) Table wpjn_gg_image_optimize: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0002.593 (0) Table wpjn_gg_image_optimize: finishing file(s) (2, 0.4 KB)
+0002.598 (0) Table wpjn_gg_membership_presets: Total expected rows (approximate): 0
+0002.608 (0) Table wpjn_gg_membership_presets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=503) in 0.01 seconds
+0002.678 (0) Table wpjn_gg_membership_presets: finishing file(s) (2, 0.3 KB)
+0002.681 (0) Table wpjn_gg_photos: Total expected rows (approximate): 44
+0002.685 (0) Table wpjn_gg_photos: Rows added in this batch (next record: 44): 44 (uncompressed bytes in this segment=3525) in 0.00 seconds
+0002.704 (0) Table wpjn_gg_photos: finishing file(s) (2, 0.8 KB)
+0002.707 (0) Table wpjn_gg_photos_pos: Total expected rows (approximate): 44
+0002.711 (0) Table wpjn_gg_photos_pos: Rows added in this batch (next record: 237): 44 (uncompressed bytes in this segment=1933) in 0.00 seconds
+0002.733 (0) Table wpjn_gg_photos_pos: finishing file(s) (2, 0.7 KB)
+0002.736 (0) Table wpjn_gg_photos_settings: Total expected rows (approximate): 0
+0002.739 (0) Table wpjn_gg_photos_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=485) in 0.00 seconds
+0002.754 (0) Table wpjn_gg_photos_settings: finishing file(s) (2, 0.3 KB)
+0002.757 (0) Table wpjn_gg_settings_presets: Total expected rows (approximate): 0
+0002.760 (0) Table wpjn_gg_settings_presets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=501) in 0.00 seconds
+0002.781 (0) Table wpjn_gg_settings_presets: finishing file(s) (2, 0.3 KB)
+0002.784 (0) Table wpjn_gg_settings_sets: Total expected rows (approximate): 2
+0002.788 (0) Table wpjn_gg_settings_sets: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=10167) in 0.00 seconds
+0002.818 (0) Table wpjn_gg_settings_sets: finishing file(s) (2, 2.5 KB)
+0002.821 (0) Table wpjn_gg_stats: Total expected rows (approximate): 19
+0002.823 (0) Table wpjn_gg_stats: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=1750) in 0.00 seconds
+0002.841 (0) Table wpjn_gg_stats: finishing file(s) (2, 0.7 KB)
+0002.844 (0) Table wpjn_gg_tags: Total expected rows (approximate): 0
+0002.847 (0) Table wpjn_gg_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=420) in 0.00 seconds
+0002.861 (0) Table wpjn_gg_tags: finishing file(s) (2, 0.3 KB)
+0002.864 (0) Table wpjn_nf3_action_meta: Total expected rows (approximate): 119
+0002.869 (0) Table wpjn_nf3_action_meta: Rows added in this batch (next record: 197): 119 (uncompressed bytes in this segment=11391) in 0.00 seconds
+0002.886 (0) Table wpjn_nf3_action_meta: finishing file(s) (2, 2 KB)
+0002.890 (0) Table wpjn_nf3_actions: Total expected rows (approximate): 4
+0002.895 (0) Table wpjn_nf3_actions: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0002.918 (0) Table wpjn_nf3_actions: finishing file(s) (2, 0.5 KB)
+0002.922 (0) Table wpjn_nf3_chunks: Total expected rows (approximate): 0
+0002.925 (0) Table wpjn_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=443) in 0.00 seconds
+0002.945 (0) Table wpjn_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0002.949 (0) Table wpjn_nf3_field_meta: Total expected rows (approximate): 288
+0002.957 (0) Table wpjn_nf3_field_meta: Rows added in this batch (next record: 548): 288 (uncompressed bytes in this segment=19858) in 0.01 seconds
+0002.978 (0) Table wpjn_nf3_field_meta: finishing file(s) (2, 2.9 KB)
+0002.981 (0) Table wpjn_nf3_fields: Total expected rows (approximate): 4
+0002.985 (0) Table wpjn_nf3_fields: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1543) in 0.00 seconds
+0003.014 (0) Table wpjn_nf3_fields: finishing file(s) (2, 0.6 KB)
+0003.017 (0) Table wpjn_nf3_form_meta: Total expected rows (approximate): 116
+0003.022 (0) Table wpjn_nf3_form_meta: Rows added in this batch (next record: 214): 116 (uncompressed bytes in this segment=9120) in 0.00 seconds
+0003.038 (0) Table wpjn_nf3_form_meta: finishing file(s) (2, 1.8 KB)
+0003.041 (0) Table wpjn_nf3_forms: Total expected rows (approximate): 1
+0003.045 (0) Table wpjn_nf3_forms: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0003.067 (0) Table wpjn_nf3_forms: finishing file(s) (2, 0.5 KB)
+0003.070 (0) Table wpjn_nf3_object_meta: Total expected rows (approximate): 0
+0003.073 (0) Table wpjn_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=544) in 0.00 seconds
+0003.088 (0) Table wpjn_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0003.092 (0) Table wpjn_nf3_objects: Total expected rows (approximate): 0
+0003.095 (0) Table wpjn_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.00 seconds
+0003.117 (0) Table wpjn_nf3_objects: finishing file(s) (2, 0.4 KB)
+0003.284 (0) Table wpjn_nf3_relationships: Total expected rows (approximate): 0
+0003.290 (0) Table wpjn_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.00 seconds
+0003.325 (0) Table wpjn_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0003.328 (0) Table wpjn_nf3_upgrades: Total expected rows (approximate): 1
+0003.333 (0) Table wpjn_nf3_upgrades: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=20707) in 0.00 seconds
+0003.349 (0) Table wpjn_nf3_upgrades: finishing file(s) (2, 3.1 KB)
+0003.352 (0) Table wpjn_pta_sus_sheets: Total expected rows (approximate): 0
+0003.356 (0) Table wpjn_pta_sus_sheets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1395) in 0.00 seconds
+0003.374 (0) Table wpjn_pta_sus_sheets: finishing file(s) (2, 0.5 KB)
+0003.378 (0) Table wpjn_pta_sus_signups: Total expected rows (approximate): 0
+0003.381 (0) Table wpjn_pta_sus_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1081) in 0.00 seconds
+0003.419 (0) Table wpjn_pta_sus_signups: finishing file(s) (2, 0.4 KB)
+0003.423 (0) Table wpjn_pta_sus_tasks: Total expected rows (approximate): 0
+0003.426 (0) Table wpjn_pta_sus_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1332) in 0.00 seconds
+0003.451 (0) Table wpjn_pta_sus_tasks: finishing file(s) (2, 0.5 KB)
+0003.454 (0) Table wpjn_responsive_video_grid: Total expected rows (approximate): 0
+0003.458 (0) Table wpjn_responsive_video_grid: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.00 seconds
+0003.480 (0) Table wpjn_responsive_video_grid: finishing file(s) (2, 0.5 KB)
+0003.483 (0) Table wpjn_super_buttons: Total expected rows (approximate): 1
+0003.487 (0) Table wpjn_super_buttons: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=799) in 0.00 seconds
+0003.509 (0) Table wpjn_super_buttons: finishing file(s) (2, 0.5 KB)
+0003.512 (0) Table wpjn_super_buttons_meta: Total expected rows (approximate): 31
+0003.516 (0) Table wpjn_super_buttons_meta: Rows added in this batch (next record: 1000): 31 (uncompressed bytes in this segment=13630) in 0.00 seconds
+0003.540 (0) Table wpjn_super_buttons_meta: finishing file(s) (2, 1.5 KB)
+0003.543 (0) Table wpjn_volunteer_emails: Total expected rows (approximate): 0
+0003.550 (0) Table wpjn_volunteer_emails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.00 seconds
+0003.569 (0) Table wpjn_volunteer_emails: finishing file(s) (2, 0.3 KB)
+0003.572 (0) Table wpjn_volunteer_rsvps: Total expected rows (approximate): 0
+0003.575 (0) Table wpjn_volunteer_rsvps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0003.593 (0) Table wpjn_volunteer_rsvps: finishing file(s) (2, 0.3 KB)
+0003.597 (0) Table wpjn_wpfm_backup: Total expected rows (approximate): 0
+0003.600 (0) Table wpjn_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=526) in 0.00 seconds
+0003.616 (0) Table wpjn_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0003.619 (0) Table wpjn_wpforms_tasks_meta: Total expected rows (approximate): 2
+0003.623 (0) Table wpjn_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=844) in 0.00 seconds
+0003.659 (0) Table wpjn_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0003.662 (0) Table wpjn_wpmailsmtp_tasks_meta: Total expected rows (approximate): 0
+0003.665 (0) Table wpjn_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.00 seconds
+0003.699 (0) Table wpjn_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0003.701 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_options.table.tmpr15109.gz (1/83): adding to final database dump
+0003.728 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_options.table.gz (2/83): adding to final database dump
+0003.729 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_users.table.tmpr4.gz (3/83): adding to final database dump
+0003.730 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_users.table.gz (4/83): adding to final database dump
+0003.731 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_usermeta.table.tmpr162.gz (5/83): adding to final database dump
+0003.732 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_usermeta.table.gz (6/83): adding to final database dump
+0003.732 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_commentmeta.table.tmpr0.gz (7/83): adding to final database dump
+0003.733 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_commentmeta.table.gz (8/83): adding to final database dump
+0003.734 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_comments.table.tmpr0.gz (9/83): adding to final database dump
+0003.734 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_comments.table.gz (10/83): adding to final database dump
+0003.735 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_bans.table.tmpr3.gz (11/83): adding to final database dump
+0003.736 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_bans.table.gz (12/83): adding to final database dump
+0003.736 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_distributed_storage.table.tmpr0.gz (13/83): adding to final database dump
+0003.737 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_distributed_storage.table.gz (14/83): adding to final database dump
+0003.738 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_fingerprints.table.tmpr0.gz (15/83): adding to final database dump
+0003.738 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_fingerprints.table.gz (16/83): adding to final database dump
+0003.739 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_geolocation_cache.table.tmpr0.gz (17/83): adding to final database dump
+0003.740 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_geolocation_cache.table.gz (18/83): adding to final database dump
+0003.740 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_lockouts.table.tmpr16.gz (19/83): adding to final database dump
+0003.741 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_lockouts.table.gz (20/83): adding to final database dump
+0003.742 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_logs.table.tmpr1407.gz (21/83): adding to final database dump
+0003.974 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_logs.table.gz (22/83): adding to final database dump
+0003.975 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_mutexes.table.tmpr0.gz (23/83): adding to final database dump
+0003.976 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_mutexes.table.gz (24/83): adding to final database dump
+0003.976 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_opaque_tokens.table.tmpr1.gz (25/83): adding to final database dump
+0003.977 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_opaque_tokens.table.gz (26/83): adding to final database dump
+0003.978 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_temp.table.tmpr203.gz (27/83): adding to final database dump
+0003.979 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_temp.table.gz (28/83): adding to final database dump
+0003.979 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_user_groups.table.tmpr1001.gz (29/83): adding to final database dump
+0003.980 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_itsec_user_groups.table.gz (30/83): adding to final database dump
+0003.981 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_links.table.tmpr0.gz (31/83): adding to final database dump
+0003.981 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_links.table.gz (32/83): adding to final database dump
+0003.982 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_postmeta.table.tmpr6594.gz (33/83): adding to final database dump
+0004.027 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_postmeta.table.gz (34/83): adding to final database dump
+0004.028 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_posts.table.tmpr1233.gz (35/83): adding to final database dump
+0004.047 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_posts.table.gz (36/83): adding to final database dump
+0004.048 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_term_relationships.table.tmpr100001.gz (37/83): adding to final database dump
+0004.048 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_term_relationships.table.gz (38/83): adding to final database dump
+0004.049 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_term_taxonomy.table.tmpr254.gz (39/83): adding to final database dump
+0004.050 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_term_taxonomy.table.gz (40/83): adding to final database dump
+0004.051 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_termmeta.table.tmpr0.gz (41/83): adding to final database dump
+0004.051 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_termmeta.table.gz (42/83): adding to final database dump
+0004.052 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_terms.table.tmpr254.gz (43/83): adding to final database dump
+0004.055 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_terms.table.gz (44/83): adding to final database dump
+0004.055 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_yoast_seo_links.table.tmpr1647.gz (45/83): adding to final database dump
+0004.056 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_yoast_seo_links.table.gz (46/83): adding to final database dump
+0004.057 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_yoast_seo_meta.table.tmpr1230.gz (47/83): adding to final database dump
+0004.058 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_yoast_seo_meta.table.gz (48/83): adding to final database dump
+0004.058 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_actions.table.tmpr536.gz (49/83): adding to final database dump
+0004.059 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_actions.table.gz (50/83): adding to final database dump
+0004.060 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_claims.table.tmpr0.gz (51/83): adding to final database dump
+0004.060 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_claims.table.gz (52/83): adding to final database dump
+0004.061 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_groups.table.tmpr3.gz (53/83): adding to final database dump
+0004.062 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_groups.table.gz (54/83): adding to final database dump
+0004.062 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_logs.table.tmpr15.gz (55/83): adding to final database dump
+0004.063 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_actionscheduler_logs.table.gz (56/83): adding to final database dump
+0004.064 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_aps_social_icons.table.tmpr0.gz (57/83): adding to final database dump
+0004.064 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_aps_social_icons.table.gz (58/83): adding to final database dump
+0004.065 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_cftemail_forms.table.tmpr2.gz (59/83): adding to final database dump
+0004.066 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_cftemail_forms.table.gz (60/83): adding to final database dump
+0004.067 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_cftemail_messages.table.tmpr2.gz (61/83): adding to final database dump
+0004.068 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_cftemail_messages.table.gz (62/83): adding to final database dump
+0004.068 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_hiiden_content.table.tmpr0.gz (63/83): adding to final database dump
+0004.069 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_hiiden_content.table.gz (64/83): adding to final database dump
+0004.070 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_maker.table.tmpr3.gz (65/83): adding to final database dump
+0004.070 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_maker.table.gz (66/83): adding to final database dump
+0004.071 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_maker_pages.table.tmpr0.gz (67/83): adding to final database dump
+0004.072 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_expm_maker_pages.table.gz (68/83): adding to final database dump
+0004.072 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_playermeta.table.tmpr3.gz (69/83): adding to final database dump
+0004.073 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_playermeta.table.gz (70/83): adding to final database dump
+0004.073 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_players.table.tmpr2.gz (71/83): adding to final database dump
+0004.074 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_players.table.gz (72/83): adding to final database dump
+0004.075 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_videometa.table.tmpr0.gz (73/83): adding to final database dump
+0004.075 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_videometa.table.gz (74/83): adding to final database dump
+0004.076 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_videos.table.tmpr2.gz (75/83): adding to final database dump
+0004.077 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_fv_player_videos.table.gz (76/83): adding to final database dump
+0004.078 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_draft_submissions.table.tmpr1.gz (77/83): adding to final database dump
+0004.078 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_draft_submissions.table.gz (78/83): adding to final database dump
+0004.079 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry.table.tmpr0.gz (79/83): adding to final database dump
+0004.080 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry.table.gz (80/83): adding to final database dump
+0004.080 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry_meta.table.tmpr0.gz (81/83): adding to final database dump
+0004.081 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry_meta.table.gz (82/83): adding to final database dump
+0004.082 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry_notes.table.tmpr0.gz (83/83): adding to final database dump
+0004.082 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_entry_notes.table.gz (84/83): adding to final database dump
+0004.083 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form.table.tmpr0.gz (85/83): adding to final database dump
+0004.084 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form.table.gz (86/83): adding to final database dump
+0004.085 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_meta.table.tmpr0.gz (87/83): adding to final database dump
+0004.085 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_meta.table.gz (88/83): adding to final database dump
+0004.086 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_revisions.table.tmpr0.gz (89/83): adding to final database dump
+0004.087 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_revisions.table.gz (90/83): adding to final database dump
+0004.088 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_view.table.tmpr0.gz (91/83): adding to final database dump
+0004.089 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gf_form_view.table.gz (92/83): adding to final database dump
+0004.090 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_attributes.table.tmpr0.gz (93/83): adding to final database dump
+0004.091 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_attributes.table.gz (94/83): adding to final database dump
+0004.091 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_cdn.table.tmpr0.gz (95/83): adding to final database dump
+0004.092 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_cdn.table.gz (96/83): adding to final database dump
+0004.093 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_folders.table.tmpr0.gz (97/83): adding to final database dump
+0004.094 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_folders.table.gz (98/83): adding to final database dump
+0004.094 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries.table.tmpr3.gz (99/83): adding to final database dump
+0004.096 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries.table.gz (100/83): adding to final database dump
+0004.097 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries_excluded.table.tmpr0.gz (101/83): adding to final database dump
+0004.097 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries_excluded.table.gz (102/83): adding to final database dump
+0004.098 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries_resources.table.tmpr45.gz (103/83): adding to final database dump
+0004.099 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_galleries_resources.table.gz (104/83): adding to final database dump
+0004.100 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_image_optimize.table.tmpr0.gz (105/83): adding to final database dump
+0004.100 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_image_optimize.table.gz (106/83): adding to final database dump
+0004.101 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_membership_presets.table.tmpr0.gz (107/83): adding to final database dump
+0004.102 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_membership_presets.table.gz (108/83): adding to final database dump
+0004.102 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos.table.tmpr45.gz (109/83): adding to final database dump
+0004.103 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos.table.gz (110/83): adding to final database dump
+0004.104 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos_pos.table.tmpr238.gz (111/83): adding to final database dump
+0004.109 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos_pos.table.gz (112/83): adding to final database dump
+0004.110 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos_settings.table.tmpr0.gz (113/83): adding to final database dump
+0004.111 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_photos_settings.table.gz (114/83): adding to final database dump
+0004.111 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_settings_presets.table.tmpr0.gz (115/83): adding to final database dump
+0004.112 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_settings_presets.table.gz (116/83): adding to final database dump
+0004.113 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_settings_sets.table.tmpr3.gz (117/83): adding to final database dump
+0004.114 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_settings_sets.table.gz (118/83): adding to final database dump
+0004.114 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_stats.table.tmpr20.gz (119/83): adding to final database dump
+0004.115 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_stats.table.gz (120/83): adding to final database dump
+0004.116 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_tags.table.tmpr0.gz (121/83): adding to final database dump
+0004.117 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_gg_tags.table.gz (122/83): adding to final database dump
+0004.117 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_action_meta.table.tmpr198.gz (123/83): adding to final database dump
+0004.118 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_action_meta.table.gz (124/83): adding to final database dump
+0004.119 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_actions.table.tmpr9.gz (125/83): adding to final database dump
+0004.120 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_actions.table.gz (126/83): adding to final database dump
+0004.120 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_chunks.table.tmpr0.gz (127/83): adding to final database dump
+0004.121 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_chunks.table.gz (128/83): adding to final database dump
+0004.121 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_field_meta.table.tmpr549.gz (129/83): adding to final database dump
+0004.123 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_field_meta.table.gz (130/83): adding to final database dump
+0004.123 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_fields.table.tmpr9.gz (131/83): adding to final database dump
+0004.124 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_fields.table.gz (132/83): adding to final database dump
+0004.124 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_form_meta.table.tmpr215.gz (133/83): adding to final database dump
+0004.125 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_form_meta.table.gz (134/83): adding to final database dump
+0004.126 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_forms.table.tmpr3.gz (135/83): adding to final database dump
+0004.127 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_forms.table.gz (136/83): adding to final database dump
+0004.127 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_object_meta.table.tmpr0.gz (137/83): adding to final database dump
+0004.128 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_object_meta.table.gz (138/83): adding to final database dump
+0004.129 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_objects.table.tmpr0.gz (139/83): adding to final database dump
+0004.129 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_objects.table.gz (140/83): adding to final database dump
+0004.130 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_relationships.table.tmpr0.gz (141/83): adding to final database dump
+0004.130 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_relationships.table.gz (142/83): adding to final database dump
+0004.131 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_upgrades.table.tmpr3.gz (143/83): adding to final database dump
+0004.132 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_nf3_upgrades.table.gz (144/83): adding to final database dump
+0004.133 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_sheets.table.tmpr0.gz (145/83): adding to final database dump
+0004.133 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_sheets.table.gz (146/83): adding to final database dump
+0004.134 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_signups.table.tmpr0.gz (147/83): adding to final database dump
+0004.135 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_signups.table.gz (148/83): adding to final database dump
+0004.135 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_tasks.table.tmpr0.gz (149/83): adding to final database dump
+0004.136 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_pta_sus_tasks.table.gz (150/83): adding to final database dump
+0004.137 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_responsive_video_grid.table.tmpr0.gz (151/83): adding to final database dump
+0004.147 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_responsive_video_grid.table.gz (152/83): adding to final database dump
+0004.148 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_super_buttons.table.tmpr3.gz (153/83): adding to final database dump
+0004.149 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_super_buttons.table.gz (154/83): adding to final database dump
+0004.150 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_super_buttons_meta.table.tmpr1001.gz (155/83): adding to final database dump
+0004.151 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_super_buttons_meta.table.gz (156/83): adding to final database dump
+0004.153 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_volunteer_emails.table.tmpr0.gz (157/83): adding to final database dump
+0004.153 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_volunteer_emails.table.gz (158/83): adding to final database dump
+0004.154 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_volunteer_rsvps.table.tmpr0.gz (159/83): adding to final database dump
+0004.155 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_volunteer_rsvps.table.gz (160/83): adding to final database dump
+0004.155 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpfm_backup.table.tmpr0.gz (161/83): adding to final database dump
+0004.156 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpfm_backup.table.gz (162/83): adding to final database dump
+0004.157 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpforms_tasks_meta.table.tmpr3.gz (163/83): adding to final database dump
+0004.157 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpforms_tasks_meta.table.gz (164/83): adding to final database dump
+0004.158 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpmailsmtp_tasks_meta.table.tmpr0.gz (165/83): adding to final database dump
+0004.159 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db-table-wpjn_wpmailsmtp_tasks_meta.table.gz (166/83): adding to final database dump
+0004.884 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: finished writing out complete database file (1840 KB)
+0005.002 (0) Total database tables backed up: 83 (backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz, size: 1914178, sha1: 452976b25bbdcb7bfc62e05eb011e63a3b4b5da7, sha256: 6f2cd068fe2e2d3bd582b66ec761019c8c29b1fe532a82278b3914e06feabac3)
+0005.009 (0) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.010 (0) Saving backup history. Total backup size: 1.8 MB
+0005.013 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0005.015 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0005.016 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+0005.016 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0005.387 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0005.600 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+0005.600 (0) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+0006.043 (0) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0006.044 (0) An error condition has occurred for the first time during this job
+0006.046 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0006.048 (0) Number of backup sets in history: 15; groups (db): 1
+0006.048 (0) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+0006.049 (0) This backup set is the backup set just made, so will not be deleted.
+0006.049 (0) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+0006.049 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+0006.050 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.050 (0) Examining (for databases) backup set with group_id=0, nonce=39cdd8540849, datestamp=1626640699 (Jul 18 2021 20:38:19)
+0006.050 (0) 1626640699: db: this set includes a database (backup_2021-07-18-2038_Roshika_Gang_of_Animal_Lovers_39cdd8540849-db.gz); db count is now 10
+0006.050 (0) 1626640699: db: over retain limit (10); will delete this database
+0006.050 (0) Delete file: backup_2021-07-18-2038_Roshika_Gang_of_Animal_Lovers_39cdd8540849-db.gz, service=dropbox
+0006.051 (0) Dropbox: request deletion: backup_2021-07-18-2038_Roshika_Gang_of_Animal_Lovers_39cdd8540849-db.gz
+0006.082 (0) Dropbox: SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0006.083 (0) Dropbox: deletion failed
+0006.085 (0) This backup set is now empty; will remove from history
+0006.085 (0) Deleting log file (log.39cdd8540849.txt)
+0006.086 (0) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+0006.086 (0) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+0006.086 (0) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+0006.086 (0) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+0006.086 (0) Number of backup sets in history: 14; groups (files): 1
+0006.087 (0) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+0006.087 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+0006.088 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.088 (0) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+0006.088 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.089 (0) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+0006.089 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.089 (0) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+0006.089 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.089 (0) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+0006.089 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.089 (0) Retain: saving new backup history (sets now: 14) and finishing retain operation
+0006.093 (0) Resume backup (724cfba1c796, 0): finish run
+0006.094 (0) Decremented the semaphore (d) by 1
+0006.095 (0) Semaphore (d) unlocked
+0006.096 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0006.098 (0) Rescheduling resumption 1: moving to 60 seconds from now (1627497605)
+0006.099 (0) The backup has not finished; a resumption is scheduled
+3912.922 (1) Opened log file at time: Wed, 28 Jul 2021 19:44:12 +0000 on http://www.rgoal.in
+3912.947 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+3912.949 (1) Free space on disk containing Updraft's temporary directory: 13276676 MB
+3913.044 (1) Requesting backup semaphore lock (724cfba1c796)
+3913.046 (1) [Lock option (updraft_lock_724cfba1c796, wpjn_options) was created in the database] debug
+3913.048 (1) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired after initialising the database] info
+3913.049 (1) Backup run: resumption=1, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (3913s ago), job type=backup, previous check-in=6.1s
+3913.050 (1) Long time past since expected resumption time: approx expected=1627497846, now=1627501452.7, diff=3606.7
+3913.175 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3913.176 (1) Scheduling a resumption (2) after 300 seconds (1627501752) in case this run gets aborted
+3913.186 (1) This backup run is not intended for files - skipping
+3913.186 (1) Database dump (WordPress DB): Creation was completed already
+3913.187 (1) Couldn't get the sql_mode value (N;)
+3913.188 (1) SQL compatibility mode successfully changed to 
+3913.196 (1) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+3913.196 (1) Saving backup history. Total backup size: 1.8 MB
+3913.199 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+3913.201 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+3913.201 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+3913.202 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+3913.207 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+3918.654 (1) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+3918.655 (1) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+3918.691 (1) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+3918.692 (1) An error condition has occurred for the first time during this job
+3918.694 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+3918.695 (1) Number of backup sets in history: 14; groups (db): 1
+3918.696 (1) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+3918.696 (1) This backup set is the backup set just made, so will not be deleted.
+3918.696 (1) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+3918.696 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+3918.697 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+3918.697 (1) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+3918.697 (1) Number of backup sets in history: 14; groups (files): 1
+3918.698 (1) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+3918.698 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+3918.699 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3918.699 (1) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+3918.699 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3918.700 (1) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+3918.700 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3918.700 (1) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+3918.700 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3918.700 (1) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+3918.700 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3918.700 (1) Retain: saving new backup history (sets now: 14) and finishing retain operation
+3918.702 (1) Resume backup (724cfba1c796, 1): finish run
+3918.704 (1) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+3918.705 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3918.706 (1) The backup has not finished; a resumption is scheduled
+5953.783 (2) Opened log file at time: Wed, 28 Jul 2021 20:18:13 +0000 on http://www.rgoal.in
+5953.802 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+5953.803 (2) Free space on disk containing Updraft's temporary directory: 13276664 MB
+5953.804 (2) Requesting backup semaphore lock (724cfba1c796)
+5953.805 (2) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+5953.807 (2) Backup run: resumption=2, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (5954s ago), job type=backup
+5953.808 (2) Long time past since expected resumption time: approx expected=1627501752.7, now=1627503493.6, diff=1740.9
+5953.808 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5953.810 (2) Scheduling a resumption (3) after 300 seconds (1627503793) in case this run gets aborted
+5953.819 (2) This backup run is not intended for files - skipping
+5953.820 (2) Database dump (WordPress DB): Creation was completed already
+5953.821 (2) Couldn't get the sql_mode value (N;)
+5953.822 (2) SQL compatibility mode successfully changed to 
+5953.830 (2) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+5953.831 (2) Saving backup history. Total backup size: 1.8 MB
+5953.834 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+5953.835 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+5953.836 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+5953.837 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+5953.841 (2) Dropbox: access gained; setting chunk size to: 1024 KB
+5953.876 (2) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+5953.877 (2) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+5953.909 (2) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+5953.911 (2) An error condition has occurred for the first time during this job
+5953.912 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+5953.914 (2) Number of backup sets in history: 14; groups (db): 1
+5953.914 (2) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+5953.915 (2) This backup set is the backup set just made, so will not be deleted.
+5953.915 (2) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+5953.915 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+5953.916 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+5953.916 (2) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+5953.916 (2) Number of backup sets in history: 14; groups (files): 1
+5953.917 (2) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+5953.917 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.917 (2) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+5953.917 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.917 (2) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+5953.917 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.917 (2) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+5953.917 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.917 (2) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+5953.917 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+5953.918 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+5953.918 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+5953.918 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+5953.918 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+5953.918 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+5953.918 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+5953.918 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+5953.918 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5953.918 (2) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+5953.919 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5953.919 (2) Retain: saving new backup history (sets now: 14) and finishing retain operation
+5953.921 (2) Resume backup (724cfba1c796, 2): finish run
+5953.922 (2) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+5953.923 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5953.925 (2) The backup has not finished; a resumption is scheduled
+15078.043 (3) Opened log file at time: Wed, 28 Jul 2021 22:50:17 +0000 on http://www.rgoal.in
+15078.057 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+15078.059 (3) Free space on disk containing Updraft's temporary directory: 13281532 MB
+15078.087 (3) Requesting backup semaphore lock (724cfba1c796)
+15078.089 (3) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+15078.090 (3) Backup run: resumption=3, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (15078s ago), job type=backup
+15078.091 (3) Long time past since expected resumption time: approx expected=1627503793.6, now=1627512617.8, diff=8824.2
+15078.091 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+15078.093 (3) Scheduling a resumption (4) after 300 seconds (1627512917) in case this run gets aborted
+15078.199 (3) This backup run is not intended for files - skipping
+15078.200 (3) Database dump (WordPress DB): Creation was completed already
+15078.202 (3) Couldn't get the sql_mode value (N;)
+15078.203 (3) SQL compatibility mode successfully changed to 
+15078.283 (3) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+15078.283 (3) Saving backup history. Total backup size: 1.8 MB
+15078.287 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+15078.288 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+15078.289 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+15078.290 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+15078.716 (3) Dropbox: access gained; setting chunk size to: 1024 KB
+15079.321 (3) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+15079.322 (3) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+15079.717 (3) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15079.718 (3) An error condition has occurred for the first time during this job
+15079.720 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+15079.722 (3) Number of backup sets in history: 14; groups (db): 1
+15079.723 (3) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+15079.724 (3) This backup set is the backup set just made, so will not be deleted.
+15079.724 (3) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+15079.724 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.724 (3) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+15079.724 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.724 (3) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+15079.724 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.724 (3) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+15079.724 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+15079.725 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+15079.725 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+15079.725 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+15079.725 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+15079.725 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+15079.725 (3) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+15079.725 (3) Number of backup sets in history: 14; groups (files): 1
+15079.726 (3) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+15079.726 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.726 (3) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+15079.726 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.726 (3) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+15079.726 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.726 (3) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+15079.726 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+15079.727 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+15079.727 (3) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+15079.727 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+15079.728 (3) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+15079.728 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+15079.728 (3) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+15079.728 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+15079.728 (3) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+15079.728 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+15079.728 (3) Retain: saving new backup history (sets now: 14) and finishing retain operation
+15079.731 (3) Resume backup (724cfba1c796, 3): finish run
+15079.731 (3) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+15079.732 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15079.734 (3) The backup has not finished; a resumption is scheduled
+18970.995 (4) Opened log file at time: Wed, 28 Jul 2021 23:55:10 +0000 on http://www.rgoal.in
+18971.007 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+18971.009 (4) Free space on disk containing Updraft's temporary directory: 13280340 MB
+18971.010 (4) Requesting backup semaphore lock (724cfba1c796)
+18971.011 (4) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+18971.013 (4) Backup run: resumption=4, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (18971s ago), job type=backup
+18971.013 (4) Long time past since expected resumption time: approx expected=1627512917.8, now=1627516510.8, diff=3593
+18971.014 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+18971.016 (4) Scheduling a resumption (5) after 300 seconds (1627516810) in case this run gets aborted
+18971.023 (4) This backup run is not intended for files - skipping
+18971.024 (4) Database dump (WordPress DB): Creation was completed already
+18971.025 (4) Couldn't get the sql_mode value (N;)
+18971.026 (4) SQL compatibility mode successfully changed to 
+18971.034 (4) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+18971.035 (4) Saving backup history. Total backup size: 1.8 MB
+18971.038 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+18971.040 (4) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+18971.041 (4) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+18971.041 (4) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+18971.047 (4) Dropbox: access gained; setting chunk size to: 1024 KB
+18971.507 (4) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+18971.508 (4) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+18971.542 (4) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18971.543 (4) An error condition has occurred for the first time during this job
+18971.545 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+18971.548 (4) Number of backup sets in history: 14; groups (db): 1
+18971.548 (4) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+18971.549 (4) This backup set is the backup set just made, so will not be deleted.
+18971.549 (4) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+18971.549 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.550 (4) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+18971.550 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.550 (4) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+18971.550 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.550 (4) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+18971.550 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.550 (4) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+18971.550 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.550 (4) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+18971.550 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+18971.551 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+18971.551 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+18971.551 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+18971.551 (4) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+18971.551 (4) Number of backup sets in history: 14; groups (files): 1
+18971.552 (4) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+18971.552 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+18971.553 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+18971.553 (4) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+18971.553 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+18971.554 (4) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+18971.554 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+18971.554 (4) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+18971.554 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+18971.554 (4) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+18971.554 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+18971.554 (4) Retain: saving new backup history (sets now: 14) and finishing retain operation
+18971.557 (4) Resume backup (724cfba1c796, 4): finish run
+18971.557 (4) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+18971.559 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+18971.560 (4) The backup has not finished; a resumption is scheduled
+33247.386 (5) Opened log file at time: Thu, 29 Jul 2021 03:53:07 +0000 on http://www.rgoal.in
+33247.412 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+33247.414 (5) Free space on disk containing Updraft's temporary directory: 13277320 MB
+33247.446 (5) Requesting backup semaphore lock (724cfba1c796)
+33247.453 (5) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+33247.455 (5) Backup run: resumption=5, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (33248s ago), job type=backup
+33247.459 (5) Long time past since expected resumption time: approx expected=1627516810.8, now=1627530787.1, diff=13976.3
+33247.460 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+33247.461 (5) Scheduling a resumption (6) after 300 seconds (1627531087) in case this run gets aborted
+33247.592 (5) This backup run is not intended for files - skipping
+33247.599 (5) Database dump (WordPress DB): Creation was completed already
+33247.602 (5) Couldn't get the sql_mode value (N;)
+33247.622 (5) SQL compatibility mode successfully changed to 
+33248.030 (5) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+33248.030 (5) Saving backup history. Total backup size: 1.8 MB
+33248.048 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+33248.053 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+33248.053 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+33248.054 (5) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+33248.475 (5) Dropbox: access gained; setting chunk size to: 1024 KB
+33248.602 (5) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+33248.603 (5) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+33248.687 (5) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+33248.688 (5) An error condition has occurred for the first time during this job
+33248.690 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+33248.691 (5) Number of backup sets in history: 14; groups (db): 1
+33248.692 (5) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+33248.693 (5) This backup set is the backup set just made, so will not be deleted.
+33248.693 (5) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+33248.693 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.693 (5) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+33248.693 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+33248.694 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+33248.694 (5) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+33248.694 (5) Number of backup sets in history: 14; groups (files): 1
+33248.695 (5) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.695 (5) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.695 (5) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.695 (5) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.695 (5) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.695 (5) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+33248.695 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+33248.696 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+33248.696 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+33248.696 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+33248.696 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+33248.696 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+33248.696 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+33248.696 (5) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+33248.697 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+33248.697 (5) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+33248.697 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+33248.697 (5) Retain: saving new backup history (sets now: 14) and finishing retain operation
+33248.699 (5) Resume backup (724cfba1c796, 5): finish run
+33248.700 (5) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+33248.704 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+33248.706 (5) The backup has not finished; a resumption is scheduled
+41523.982 (6) Opened log file at time: Thu, 29 Jul 2021 06:11:03 +0000 on http://www.rgoal.in
+41524.145 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+41524.147 (6) Free space on disk containing Updraft's temporary directory: 13275048 MB
+41524.191 (6) Requesting backup semaphore lock (724cfba1c796)
+41524.193 (6) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+41524.194 (6) Backup run: resumption=6, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (41524s ago), job type=backup
+41524.195 (6) Long time past since expected resumption time: approx expected=1627531087.1, now=1627539063.7, diff=7976.6
+41524.196 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+41524.197 (6) Scheduling a resumption (7) after 300 seconds (1627539363) in case this run gets aborted
+41524.397 (6) This backup run is not intended for files - skipping
+41524.402 (6) Database dump (WordPress DB): Creation was completed already
+41524.557 (6) Couldn't get the sql_mode value (N;)
+41524.559 (6) SQL compatibility mode successfully changed to 
+41524.686 (6) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+41524.687 (6) Saving backup history. Total backup size: 1.8 MB
+41524.691 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+41524.693 (6) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+41524.694 (6) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+41524.695 (6) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+41525.012 (6) Dropbox: access gained; setting chunk size to: 1024 KB
+41525.088 (6) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+41525.089 (6) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+41525.156 (6) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+41525.157 (6) An error condition has occurred for the first time during this job
+41525.159 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+41525.160 (6) Number of backup sets in history: 14; groups (db): 1
+41525.161 (6) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+41525.162 (6) This backup set is the backup set just made, so will not be deleted.
+41525.162 (6) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+41525.162 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.162 (6) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+41525.162 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.162 (6) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+41525.162 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.162 (6) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+41525.163 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+41525.163 (6) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+41525.163 (6) Number of backup sets in history: 14; groups (files): 1
+41525.164 (6) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.164 (6) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+41525.164 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+41525.165 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+41525.165 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+41525.165 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+41525.165 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+41525.165 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+41525.165 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+41525.165 (6) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+41525.165 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+41525.166 (6) Retain: saving new backup history (sets now: 14) and finishing retain operation
+41525.168 (6) Resume backup (724cfba1c796, 6): finish run
+41525.169 (6) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+41525.170 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+41525.171 (6) The backup has not finished; a resumption is scheduled
+45580.118 (7) Opened log file at time: Thu, 29 Jul 2021 07:18:39 +0000 on http://www.rgoal.in
+45580.130 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+45580.132 (7) Free space on disk containing Updraft's temporary directory: 13272180 MB
+45580.133 (7) Requesting backup semaphore lock (724cfba1c796)
+45580.134 (7) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+45580.135 (7) Backup run: resumption=7, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (45580s ago), job type=backup
+45580.136 (7) Long time past since expected resumption time: approx expected=1627539363.7, now=1627543119.9, diff=3756.2
+45580.137 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+45580.138 (7) Scheduling a resumption (8) after 300 seconds (1627543419) in case this run gets aborted
+45580.146 (7) This backup run is not intended for files - skipping
+45580.147 (7) Database dump (WordPress DB): Creation was completed already
+45580.148 (7) Couldn't get the sql_mode value (N;)
+45580.150 (7) SQL compatibility mode successfully changed to 
+45580.158 (7) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+45580.159 (7) Saving backup history. Total backup size: 1.8 MB
+45580.162 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+45580.163 (7) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+45580.164 (7) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+45580.165 (7) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+45580.169 (7) Dropbox: access gained; setting chunk size to: 1024 KB
+45580.206 (7) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+45580.207 (7) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+45580.241 (7) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+45580.243 (7) An error condition has occurred for the first time during this job
+45580.245 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+45580.246 (7) Number of backup sets in history: 14; groups (db): 1
+45580.247 (7) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+45580.247 (7) This backup set is the backup set just made, so will not be deleted.
+45580.247 (7) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+45580.247 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+45580.248 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.248 (7) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+45580.249 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.249 (7) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+45580.249 (7) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+45580.249 (7) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+45580.249 (7) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+45580.249 (7) Number of backup sets in history: 14; groups (files): 1
+45580.249 (7) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+45580.249 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+45580.250 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+45580.250 (7) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+45580.250 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+45580.251 (7) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+45580.251 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+45580.251 (7) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+45580.251 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+45580.251 (7) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+45580.251 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+45580.251 (7) Retain: saving new backup history (sets now: 14) and finishing retain operation
+45580.253 (7) Resume backup (724cfba1c796, 7): finish run
+45580.254 (7) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+45580.255 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+45580.256 (7) The backup has not finished; a resumption is scheduled
+45996.065 (8) Opened log file at time: Thu, 29 Jul 2021 07:25:35 +0000 on http://www.rgoal.in
+45996.072 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+45996.074 (8) Free space on disk containing Updraft's temporary directory: 13269136 MB
+45996.075 (8) Requesting backup semaphore lock (724cfba1c796)
+45996.076 (8) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+45996.078 (8) Backup run: resumption=8, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (45996s ago), job type=backup
+45996.079 (8) Scheduling a resumption (9) after 300 seconds (1627543835) in case this run gets aborted
+45996.086 (8) This backup run is not intended for files - skipping
+45996.087 (8) Database dump (WordPress DB): Creation was completed already
+45996.088 (8) Couldn't get the sql_mode value (N;)
+45996.090 (8) SQL compatibility mode successfully changed to 
+45996.100 (8) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+45996.101 (8) Saving backup history. Total backup size: 1.8 MB
+45996.104 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+45996.106 (8) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+45996.107 (8) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+45996.108 (8) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+45996.114 (8) Dropbox: access gained; setting chunk size to: 1024 KB
+45996.633 (8) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+45996.634 (8) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+45996.669 (8) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+45996.670 (8) An error condition has occurred for the first time during this job
+45996.672 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+45996.673 (8) Number of backup sets in history: 14; groups (db): 1
+45996.674 (8) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+45996.675 (8) This backup set is the backup set just made, so will not be deleted.
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.675 (8) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+45996.675 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.676 (8) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+45996.676 (8) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+45996.676 (8) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+45996.676 (8) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+45996.676 (8) Number of backup sets in history: 14; groups (files): 1
+45996.676 (8) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+45996.676 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+45996.677 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+45996.677 (8) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+45996.677 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+45996.678 (8) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+45996.678 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+45996.678 (8) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+45996.678 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+45996.678 (8) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+45996.678 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+45996.678 (8) Retain: saving new backup history (sets now: 14) and finishing retain operation
+45996.681 (8) Resume backup (724cfba1c796, 8): finish run
+45996.682 (8) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+45996.683 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+45996.684 (8) The backup has not finished; a resumption is scheduled
+70789.441 (9) Opened log file at time: Thu, 29 Jul 2021 14:18:49 +0000 on http://www.rgoal.in
+70789.467 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.51 WP: 5.4.6 PHP: 7.4.12 (fpm-fcgi, Linux app5.freehosting.com 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64) MySQL: 5.7.32-35-log WPLANG: en_US Server: Apache/2.4.41 (Ubuntu) safe_mode: 0 max_execution_time: 120 memory_limit: 256M (used: 42.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+70789.469 (9) Free space on disk containing Updraft's temporary directory: 13265848 MB
+70789.506 (9) Requesting backup semaphore lock (724cfba1c796)
+70789.507 (9) [Lock (updraft_lock_724cfba1c796, wpjn_options) acquired] info
+70789.509 (9) Backup run: resumption=9, nonce=724cfba1c796, file_nonce=724cfba1c796 begun at=1627497539 (70790s ago), job type=backup
+70789.509 (9) Long time past since expected resumption time: approx expected=1627543835.9, now=1627568329.2, diff=24493.3
+70789.510 (9) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+70789.511 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+70789.513 (9) Scheduling a resumption (10) after 300 seconds (1627568629); but the job will then be aborted unless something happens this time
+70789.616 (9) This backup run is not intended for files - skipping
+70789.617 (9) Database dump (WordPress DB): Creation was completed already
+70789.619 (9) Couldn't get the sql_mode value (N;)
+70789.620 (9) SQL compatibility mode successfully changed to 
+70789.693 (9) backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz: db: This file has not yet been successfully uploaded: will queue
+70789.694 (9) Saving backup history. Total backup size: 1.8 MB
+70789.697 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+70789.698 (9) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+70789.699 (9) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9429724bcbf74dd29533b8ca40920a11)
+70789.700 (9) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+70789.985 (9) Dropbox: access gained; setting chunk size to: 1024 KB
+70790.079 (9) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: SSL certificate problem: certificate has expired
+70790.264 (9) Dropbox: Attempt to upload: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz to: backup_2021-07-28-1838_Roshika_Gang_of_Animal_Lovers_724cfba1c796-db.gz
+70790.415 (9) Dropbox: chunked upload exception (Dropbox_CurlException): SSL certificate problem: certificate has expired (line: 171, file: /home/rgoalin/domains/rgoal.in/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+70790.420 (9) An error condition has occurred for the first time during this job
+70790.430 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+70790.437 (9) Number of backup sets in history: 14; groups (db): 1
+70790.439 (9) Examining (for databases) backup set with group_id=0, nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+70790.444 (9) This backup set is the backup set just made, so will not be deleted.
+70790.444 (9) Examining (for databases) backup set with group_id=0, nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+70790.444 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.445 (9) Examining (for databases) backup set with group_id=0, nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+70790.445 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+70790.446 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+70790.446 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+70790.446 (9) Examining (for databases) backup set with group_id=0, nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+70790.446 (9) Number of backup sets in history: 14; groups (files): 1
+70790.451 (9) Examining (for files) backup set with nonce=724cfba1c796, datestamp=1627497539 (Jul 28 2021 18:38:59)
+70790.451 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=43a71f1d7701, datestamp=1627410737 (Jul 27 2021 18:32:17)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=a5c902948541, datestamp=1627336898 (Jul 26 2021 22:01:38)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=f2a84d818830, datestamp=1627233116 (Jul 25 2021 17:11:56)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=d8d6f9880f4d, datestamp=1627152118 (Jul 24 2021 18:41:58)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=b9eed798e9ab, datestamp=1627071741 (Jul 23 2021 20:22:21)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=0d5977d063be, datestamp=1626984108 (Jul 22 2021 20:01:48)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=b3cc55ececd2, datestamp=1626893498 (Jul 21 2021 18:51:38)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=7a5ee0b13a5a, datestamp=1626814453 (Jul 20 2021 20:54:13)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=79835148c8fe, datestamp=1626714431 (Jul 19 2021 17:07:11)
+70790.454 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+70790.454 (9) Examining (for files) backup set with nonce=7f1fff52322c, datestamp=1590851704 (May 30 2020 15:15:04)
+70790.454 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+70790.460 (9) Examining (for files) backup set with nonce=7e62f50ef739, datestamp=1590759532 (May 29 2020 13:38:52)
+70790.460 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+70790.460 (9) Examining (for files) backup set with nonce=fd25280045cd, datestamp=1590737504 (May 29 2020 07:31:44)
+70790.460 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+70790.460 (9) Examining (for files) backup set with nonce=fbd878e75228, datestamp=1590685542 (May 28 2020 17:05:42)
+70790.460 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+70790.461 (9) Retain: saving new backup history (sets now: 14) and finishing retain operation
+70790.468 (9) Resume backup (724cfba1c796, 9): finish run
+70790.470 (9) [Lock option (updraft_lock_724cfba1c796, wpjn_options) released] info
+70790.477 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+70790.485 (9) Fetching RSS news feed
+70791.179 (9) Fetched RSS news feed; result is a: SimplePie
+70792.281 (9) Sending email ('Database only (files were not part of this particular schedule)') report (attachments: 1, size: 139.5 KB) to: sumit...
+70792.492 (9) The backup attempt has finished, apparently unsuccessfully

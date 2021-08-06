@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Site Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 18:40+0000\n"
+"PO-Revision-Date: 2019-06-25 10:58+0000\n"
+"Last-Translator: admin <awais.altaf@nxb.com.pk>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Awais Altaf"
+msgstr ""
+
+#: custom-site-logo.php:107
+msgid "Center Logo"
+msgstr ""
+"Center Logo\n"
+
+#: custom-site-logo.php:287
+msgid "Check logo preview with hover effect if selected"
+msgstr ""
+"Controleer logo preview met hover effect indien geselecteerd\n"
+
+#: custom-site-logo.php:235
+msgid "Check this option for responsive logo."
+msgstr ""
+"Vink deze optie aan voor responsive logo.\n"
+
+#: custom-site-logo.php:218
+msgid "Check this option to center the logo."
+msgstr ""
+"Vink deze optie aan om het logo te centreren.\n"
+
+#: custom-site-logo.php:68
+msgid "Choose Hover Effect"
+msgstr ""
+"Kies Hovereffect\n"
+
+#. Adding this submenu to Settings Main Menu
+#. Name of the plugin
+#: custom-site-logo.php:321 custom-site-logo.php:322
+msgid "Custom Site Logo"
+msgstr ""
+"Aangepast site-logo\n"
+
+#: custom-site-logo.php:47
+msgid "Custom Site Logo Settings"
+msgstr ""
+"Aangepaste site logo-instellingen\n"
+
+#: custom-site-logo.php:153
+msgid ""
+"Dear user, kindly paste <?php echo csl_CustomSiteLogo_show_logo(); ?> in "
+"your template where you want to display the logo.<br><br>"
+msgstr ""
+"Beste gebruiker, vriendelijk plakken csl_CustomSiteLogo_show_logo ();  in uw "
+"sjabloon waarin u het logo wilt weergeven. <br> <br>\n"
+
+#: custom-site-logo.php:157
+msgid ""
+"Dear user, kindly paste shortcode [csl_display_logo] in your post, page or "
+"any editor where you want to display the logo."
+msgstr ""
+"Beste gebruiker, stop shortcode [csl_display_logo] in uw bericht, pagina of "
+"een willekeurige editor waarin u het logo wilt weergeven.\n"
+
+#: custom-site-logo.php:172
+msgid "Enter an image URL or use an image from media library."
+msgstr ""
+"Voer een afbeeldings-URL in of gebruik een afbeelding uit de "
+"mediabibliotheek.\n"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://feastsolutions.com"
+msgstr ""
+
+#: custom-site-logo.php:133
+msgid "Link logo to custom URL"
+msgstr ""
+"Logo koppelen aan aangepaste URL\n"
+
+#: custom-site-logo.php:94
+msgid "Logo Height"
+msgstr ""
+"Logo Hoogte\n"
+
+#: custom-site-logo.php:338
+msgid "Logo Settings Saved Successfully"
+msgstr ""
+"Logo-instellingen succesvol opgeslagen\n"
+
+#: custom-site-logo.php:81
+msgid "Logo Width"
+msgstr ""
+"Logo Breedte\n"
+
+#: custom-site-logo.php:120
+msgid "Make Logo Responsive"
+msgstr ""
+"Maak Logo Responsive\n"
+
+#: custom-site-logo.php:294
+msgid "No Preview Available"
+msgstr ""
+"Geen voorbeeld beschikbaar\n"
+
+#: custom-site-logo.php:215
+msgid "Please check if you want to center the logo"
+msgstr ""
+"Controleer of u het logo wilt centreren\n"
+
+#: custom-site-logo.php:232
+msgid "Please check if you want to make logo responsive"
+msgstr ""
+"Controleer of u het logo responsief wilt maken\n"
+
+#: custom-site-logo.php:250
+msgid "Put any custom URL."
+msgstr ""
+"Plaats een aangepaste URL.\n"
+
+#: custom-site-logo.php:247
+msgid "Put custom link here."
+msgstr ""
+"Zet hier een aangepaste link.\n"
+
+#: custom-site-logo.php:200
+msgid ""
+"Put height in px. If you want default logo height with just leave it empty."
+msgstr ""
+"Zet de hoogte in px. Als u de standaardlogohoogte wilt, laat u deze gewoon "
+"leeg.\n"
+
+#: custom-site-logo.php:187
+msgid ""
+"Put width in px. If you want default logo width with just leave it empty."
+msgstr ""
+"Zet de breedte in px. Als u een standaardlogobreedte wilt, laat u deze "
+"gewoon leeg.\n"
+
+#: custom-site-logo.php:290
+msgid "Select best hover effects"
+msgstr ""
+"Selecteer de beste hover-effecten\n"
+
+#: custom-site-logo.php:170
+msgid "Select Logo"
+msgstr ""
+"Selecteer Logo\n"
+
+#. Description of the plugin
+msgid "This is a plugin to show the custom logo in site header or any where."
+msgstr ""
+"Dit is een plug-in om het aangepaste logo in de sitekop te tonen of waar dan "
+"ook.\n"
+
+#: custom-site-logo.php:55
+msgid "Upload Image"
+msgstr ""
+"Afbeelding uploaden\n"

@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Site Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 18:40+0000\n"
+"PO-Revision-Date: 2019-06-25 11:01+0000\n"
+"Last-Translator: admin <awais.altaf@nxb.com.pk>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Awais Altaf"
+msgstr ""
+
+#: custom-site-logo.php:107
+msgid "Center Logo"
+msgstr ""
+"中心标志\n"
+
+#: custom-site-logo.php:287
+msgid "Check logo preview with hover effect if selected"
+msgstr ""
+"如果选中，则使用悬停效果检查徽标预览\n"
+
+#: custom-site-logo.php:235
+msgid "Check this option for responsive logo."
+msgstr ""
+"选中此选项以获取响应式徽标。\n"
+
+#: custom-site-logo.php:218
+msgid "Check this option to center the logo."
+msgstr ""
+"选中此选项可使徽标居中。\n"
+
+#: custom-site-logo.php:68
+msgid "Choose Hover Effect"
+msgstr ""
+"选择悬停效果\n"
+
+#. Adding this submenu to Settings Main Menu
+#. Name of the plugin
+#: custom-site-logo.php:321 custom-site-logo.php:322
+msgid "Custom Site Logo"
+msgstr ""
+"自定义网站徽标\n"
+
+#: custom-site-logo.php:47
+msgid "Custom Site Logo Settings"
+msgstr ""
+"自定义站点徽标设置\n"
+
+#: custom-site-logo.php:153
+msgid ""
+"Dear user, kindly paste <?php echo csl_CustomSiteLogo_show_logo(); ?> in "
+"your template where you want to display the logo.<br><br>"
+msgstr ""
+"亲爱的用户，请粘贴  csl_CustomSiteLogo_show_logo(); 在模板中要显示徽标。\n"
+
+#: custom-site-logo.php:157
+msgid ""
+"Dear user, kindly paste shortcode [csl_display_logo] in your post, page or "
+"any editor where you want to display the logo."
+msgstr ""
+"亲爱的用户，请在帖子，页面或任何要显示徽标的编辑器中粘贴短代码[csl_display_logo]。\n"
+
+#: custom-site-logo.php:172
+msgid "Enter an image URL or use an image from media library."
+msgstr ""
+"输入图像URL或使用媒体库中的图像。\n"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://feastsolutions.com"
+msgstr ""
+
+#: custom-site-logo.php:133
+msgid "Link logo to custom URL"
+msgstr ""
+"将徽标链接到自定义URL\n"
+
+#: custom-site-logo.php:94
+msgid "Logo Height"
+msgstr ""
+"徽标高度\n"
+
+#: custom-site-logo.php:338
+msgid "Logo Settings Saved Successfully"
+msgstr ""
+"徽标设置已成功保存\n"
+
+#: custom-site-logo.php:81
+msgid "Logo Width"
+msgstr ""
+"徽标宽度\n"
+
+#: custom-site-logo.php:120
+msgid "Make Logo Responsive"
+msgstr ""
+"让徽标响应\n"
+
+#: custom-site-logo.php:294
+msgid "No Preview Available"
+msgstr ""
+"预览不可用\n"
+
+#: custom-site-logo.php:215
+msgid "Please check if you want to center the logo"
+msgstr ""
+"请检查您是否要将徽标居中\n"
+
+#: custom-site-logo.php:232
+msgid "Please check if you want to make logo responsive"
+msgstr ""
+"请检查您是否要使徽标响应\n"
+
+#: custom-site-logo.php:250
+msgid "Put any custom URL."
+msgstr ""
+"放任何自定义网址。\n"
+
+#: custom-site-logo.php:247
+msgid "Put custom link here."
+msgstr ""
+"在这里放置自定义链接\n"
+
+#: custom-site-logo.php:200
+msgid ""
+"Put height in px. If you want default logo height with just leave it empty."
+msgstr ""
+"把高度放在px。如果您想要默认徽标高度，请将其留空。\n"
+
+#: custom-site-logo.php:187
+msgid ""
+"Put width in px. If you want default logo width with just leave it empty."
+msgstr ""
+"将宽度放在px中。如果您想要默认徽标宽度，请将其留空。\n"
+
+#: custom-site-logo.php:290
+msgid "Select best hover effects"
+msgstr ""
+"选择最佳悬停效果\n"
+
+#: custom-site-logo.php:170
+msgid "Select Logo"
+msgstr ""
+"选择徽标\n"
+
+#. Description of the plugin
+msgid "This is a plugin to show the custom logo in site header or any where."
+msgstr ""
+"这是一个插件，用于在网站标题或任何位置显示自定义徽标。\n"
+
+#: custom-site-logo.php:55
+msgid "Upload Image"
+msgstr ""
+"上传图片\n"

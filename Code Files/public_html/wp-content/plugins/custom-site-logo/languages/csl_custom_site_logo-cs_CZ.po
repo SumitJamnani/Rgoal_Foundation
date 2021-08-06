@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Site Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 18:40+0000\n"
+"PO-Revision-Date: 2019-06-25 11:05+0000\n"
+"Last-Translator: admin <awais.altaf@nxb.com.pk>\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Awais Altaf"
+msgstr ""
+
+#: custom-site-logo.php:107
+msgid "Center Logo"
+msgstr ""
+"Logo centra\n"
+
+#: custom-site-logo.php:287
+msgid "Check logo preview with hover effect if selected"
+msgstr ""
+"Pokud je zaškrtnuto, zkontrolujte náhled loga s efektem přechodu\n"
+
+#: custom-site-logo.php:235
+msgid "Check this option for responsive logo."
+msgstr ""
+"Zaškrtněte tuto možnost pro citlivé logo.\n"
+
+#: custom-site-logo.php:218
+msgid "Check this option to center the logo."
+msgstr ""
+"Zaškrtnutím této možnosti vycentrujete logo.\n"
+
+#: custom-site-logo.php:68
+msgid "Choose Hover Effect"
+msgstr ""
+"Zvolte Hover Effect\n"
+
+#. Adding this submenu to Settings Main Menu
+#. Name of the plugin
+#: custom-site-logo.php:321 custom-site-logo.php:322
+msgid "Custom Site Logo"
+msgstr ""
+"Logo vlastního webu\n"
+
+#: custom-site-logo.php:47
+msgid "Custom Site Logo Settings"
+msgstr ""
+"Nastavení loga vlastního webu\n"
+
+#: custom-site-logo.php:153
+msgid ""
+"Dear user, kindly paste <?php echo csl_CustomSiteLogo_show_logo(); ?> in "
+"your template where you want to display the logo.<br><br>"
+msgstr ""
+"Vážený uživateli, laskavě vložte csl_CustomSiteLogo_show_logo (); ve vaší "
+"šabloně, kde chcete zobrazit logo.\n"
+
+#: custom-site-logo.php:157
+msgid ""
+"Dear user, kindly paste shortcode [csl_display_logo] in your post, page or "
+"any editor where you want to display the logo."
+msgstr ""
+"Vážený uživateli, laskavě vložte krátký kód [csl_display_logo] do svého "
+"příspěvku, stránky nebo jakéhokoli editoru, kde chcete logo zobrazit.\n"
+
+#: custom-site-logo.php:172
+msgid "Enter an image URL or use an image from media library."
+msgstr ""
+"Zadejte adresu URL obrázku nebo použijte obrázek z knihovny médií.\n"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://feastsolutions.com"
+msgstr ""
+
+#: custom-site-logo.php:133
+msgid "Link logo to custom URL"
+msgstr ""
+"Odkaz logo na vlastní adresu URL\n"
+
+#: custom-site-logo.php:94
+msgid "Logo Height"
+msgstr ""
+"Výška loga\n"
+
+#: custom-site-logo.php:338
+msgid "Logo Settings Saved Successfully"
+msgstr ""
+"Nastavení loga byla úspěšně uložena\n"
+
+#: custom-site-logo.php:81
+msgid "Logo Width"
+msgstr ""
+"Šířka loga\n"
+
+#: custom-site-logo.php:120
+msgid "Make Logo Responsive"
+msgstr ""
+"Reagovat na logo\n"
+
+#: custom-site-logo.php:294
+msgid "No Preview Available"
+msgstr ""
+"Náhled není k dispozici\n"
+
+#: custom-site-logo.php:215
+msgid "Please check if you want to center the logo"
+msgstr ""
+"Zkontrolujte, zda chcete logo vycentrovat\n"
+
+#: custom-site-logo.php:232
+msgid "Please check if you want to make logo responsive"
+msgstr ""
+"Zkontrolujte, zda chcete nastavit citlivost loga\n"
+
+#: custom-site-logo.php:250
+msgid "Put any custom URL."
+msgstr ""
+"Vložte libovolnou vlastní adresu URL.\n"
+
+#: custom-site-logo.php:247
+msgid "Put custom link here."
+msgstr ""
+"Sem vložte vlastní odkaz.\n"
+
+#: custom-site-logo.php:200
+msgid ""
+"Put height in px. If you want default logo height with just leave it empty."
+msgstr ""
+"Nastavte výšku v px. Chcete-li nastavit výchozí výšku loga, ponechte prázdné."
+"\n"
+
+#: custom-site-logo.php:187
+msgid ""
+"Put width in px. If you want default logo width with just leave it empty."
+msgstr ""
+"Vložte šířku v px. Pokud chcete, aby výchozí šířka loga byla prázdná.\n"
+
+#: custom-site-logo.php:290
+msgid "Select best hover effects"
+msgstr ""
+"Vyberte nejlepší efekty přechodu\n"
+
+#: custom-site-logo.php:170
+msgid "Select Logo"
+msgstr ""
+"Zvolte Logo\n"
+
+#. Description of the plugin
+msgid "This is a plugin to show the custom logo in site header or any where."
+msgstr ""
+"Toto je plugin pro zobrazení vlastního loga v záhlaví stránky nebo kdekoliv."
+"\n"
+
+#: custom-site-logo.php:55
+msgid "Upload Image"
+msgstr ""
+"Nahrát obrázek\n"
